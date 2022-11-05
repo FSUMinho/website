@@ -3,49 +3,61 @@
     background-color: #e52516;
     position: fixed;
     top: 0; 
+    left: 0;
     width: 100%;
     height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
+    /*o justify content espaça os componentes filhos de fora para dentro*/
+    justify-content: space-between;
+    padding: 20px 5px;
 }
 
+/* Os logos devem ficar sempre do lado esquerdo num website*/
 .logo_white_link {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .logo_white {
     height: auto;
-    width: 20%;
+    width: 15%;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
-.logo_white:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+@media (max-width: 1000px) {
+    .logo_white{
+        width: 20%;
+    }    
 }
+
+/* .logo_white:hover {
+    transform: scale(1.02);
+} */
 
 .contact-button {
     font-family: 'Kanit';
     background: white;
     border-radius: 10%;
     padding: 5px 10px;
-    position: absolute;
-    right: 6vw;
+    margin-right: 1%;
+    cursor: pointer;
     transition: all .2s ease-in-out;
+    /* position: absolute;
+    right: 6vw; */
 }
 
 .contact-button:hover {
-    cursor: pointer;
+    /* Quando utilizas o hover não necessitas de repetir os atributos, basta evidenciar aqueles que vão mudar */
+    /* cursor: pointer;
     font-family: 'Kanit';
     background: white;
     border-radius: 10%;
-    padding: 5px 10px;
-    position: absolute;
-    right: 6vw;
-    transform: scale(1.1);
+    padding: 5px 10px; */
+    /* position: absolute;
+    right: 6vw; */
+    transform: scale(1.04);
 }
