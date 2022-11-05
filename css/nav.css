@@ -38,5 +38,27 @@
 }
 
 .contact-button:hover {
-    transform: scale(1.04);
+    transform: scale(1.05);
+}
+
+.insta-logo {
+    transform: scale(14%);
+    margin-right: -140px;
+    transition: all .2s ease-in-out;
+}
+
+.insta-logo:hover {
+    cursor: pointer;
+    transform: scale(0.15);
+}
+
+.linkedin-logo {
+    transform: scale(27%);
+    margin-right: -227px;
+    transition: all .2s ease-in-out;
+}
+
+.linkedin-logo:hover {
+    cursor: pointer;
+    transform: scale(0.28);
 }
