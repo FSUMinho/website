@@ -2,4 +2,4 @@
 Website for FSUminho Formula Student Team
 <br>
 <br>
-![logo](imgs/logo_red.pnglogo_red.jpg)
+![logo](src="https://github.com/Duarte0903/fsuminho/blob/main/imgs/logo_red.png")
