@@ -1,5 +1,5 @@
 # fsuminho
-Website for FSUminho Formula Student Team
+Website for FSUminho Formula Student Team <br>
 [Link for website](https://duarte0903.github.io/fsuminho/)
 <br>
 <br>
