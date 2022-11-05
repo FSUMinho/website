@@ -1,0 +1,139 @@
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/fs.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 100px auto;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.introduction-text {
+    margin-top: -40px;
+    margin-bottom: 70px;
+}
+
+.departments-title {
+    text-align: center;
+}
+
+.departments-grid-1 {
+    font-family: 'Kanit';
+    display: grid;
+    gap: 50px 50px;
+    grid-template-rows: repeat (1, 1fr);
+    grid-template-columns: repeat (3, 1fr);
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.departments-grid-2 {
+    font-family: 'Kanit';
+    display: grid;
+    gap: 50px 50px;
+    grid-template-rows: repeat (1, 1fr);
+    grid-template-columns: repeat (2, 1fr);
+    justify-content: center;
+}
+
+.card {
+    background: #e52516;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+.mnt {
+    grid-area: 1 / 1;
+}
+
+.mnt:hover {
+    cursor: pointer;
+    transition: all 5s ease;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/mnt.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pwrt {
+    grid-area: 1 / 2;
+}
+
+.pwrt:hover {
+    transition: all 5s ease;
+    cursor: pointer;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/pwrt.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.ecu {
+    grid-area: 1 / 3;
+}
+
+.ecu:hover {
+    transition: all 2.5s ease;
+    cursor: pointer;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/ecu.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.dvrt {
+    grid-area: 1 / 1;
+}
+
+.dvrt:hover {
+    transition: all 5s ease;
+    cursor: pointer;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/dvrt.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.body {
+    grid-area: 1 / 2;
+}
+
+.body:hover {
+    transition: all 5s ease;
+    cursor: pointer;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/body.png);
+    background-position: center;
+    background-size: cover;
+}
