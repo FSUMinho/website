@@ -9,22 +9,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*o justify content espaça os componentes filhos de fora para dentro*/
     justify-content: space-between;
     padding: 20px 5px;
-}
-
-/* Os logos devem ficar sempre do lado esquerdo num website*/
-.logo_white_link {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .logo_white {
     height: auto;
     width: 15%;
     transition: all .2s ease-in-out;
+    margin-left: 5%;
     cursor: pointer;
 }
 
@@ -34,30 +27,16 @@
     }    
 }
 
-/* .logo_white:hover {
-    transform: scale(1.02);
-} */
-
 .contact-button {
     font-family: 'Kanit';
     background: white;
     border-radius: 10%;
     padding: 5px 10px;
-    margin-right: 1%;
+    margin-right: 5%;
     cursor: pointer;
     transition: all .2s ease-in-out;
-    /* position: absolute;
-    right: 6vw; */
 }
 
 .contact-button:hover {
-    /* Quando utilizas o hover não necessitas de repetir os atributos, basta evidenciar aqueles que vão mudar */
-    /* cursor: pointer;
-    font-family: 'Kanit';
-    background: white;
-    border-radius: 10%;
-    padding: 5px 10px; */
-    /* position: absolute;
-    right: 6vw; */
     transform: scale(1.04);
 }

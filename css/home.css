@@ -19,7 +19,7 @@
 }
 
 .introduction-text {
-    margin-top: -40px;
+    margin-top: -20px;
     margin-bottom: 70px;
 }
 
@@ -73,6 +73,7 @@
     ), url(../imgs/mnt.png);
     background-position: center;
     background-size: cover;
+    cursor: pointer;
 }
 
 .pwrt {
@@ -137,4 +138,53 @@
     ), url(../imgs/body.png);
     background-position: center;
     background-size: cover;
+}
+
+.competition-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.competition-text {
+    margin-top: -20px;
+}
+
+.green-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.green-text {
+    margin-top: -20px;
+}
+
+.parteners-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parteners-title {
+    font-family: 'Kanit';
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    background: #e52516;
+    border-radius: 5%;
+    padding: 30px 10px;
+    transition: all .2s ease-in-out;
+}
+
+.parteners-title:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+
 }
