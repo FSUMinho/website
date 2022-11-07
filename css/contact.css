@@ -42,3 +42,9 @@ form button {
     margin: 20px auto 0;
     border-radius: 30px;
 }
+
+.form-field {
+    border: 0;
+    background: white;
+    border-radius: 20px;
+}

@@ -27,15 +27,28 @@
             
         <h1 class="form-title">Get in touch</h1>
 
-            <input type="text" id="name" placeholder="Your Name" required>
+        <fieldset class="form-field">
+            <label for="name"></label>
+            <input id="name" name="name" placeholder="Full Name" required/>
+        </fieldset>
 
-            <input type="email" id="email" placeholder="Your Email" required>
+        <br>
 
-            <input type="text" id="phone" placeholder="Your Phone Number" required>
+        <fieldset class="form-field">
+            <label for="email"></label>
+            <input id="email" name="email" type="email" value=""
+           required placeholder="Your email"/>
+        </fieldset>
 
-            <textarea id="message" rows="a" placeholder="Your Message"></textarea>
+      <br>
 
-            <button type="submit">Submit</button>
+        <fieldset class="form-field">
+            <label for="message"></label>
+            <textarea id="message" name="message" rows="5"
+            placeholder="Tell us what's on your mind..." required></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button>
 
         </form>
     </div>
