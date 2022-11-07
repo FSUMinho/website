@@ -178,7 +178,7 @@
     font-size: 50px;
     color: white;
     background: #e52516;
-    border-radius: 5%;
+    border-radius: 10px;
     padding: 30px 10px;
     transition: all .2s ease-in-out;
 }
