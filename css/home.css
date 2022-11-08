@@ -36,6 +36,7 @@
     justify-content: center;
     margin-bottom: 50px;
     transition: .2s ease-in-out;
+    margin-top: 20px;
 }
 
 .departments-grid-2 {
@@ -146,6 +147,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 20px;
 }
 
 .competition-text {
@@ -173,7 +175,7 @@
 }
 
 .parteners-title {
-    font-family: 'Kanit';
+    font-style: italic;
     font-weight: bold;
     font-size: 50px;
     color: white;
@@ -186,5 +188,4 @@
 .parteners-title:hover {
     cursor: pointer;
     transform: scale(1.04);
-
 }

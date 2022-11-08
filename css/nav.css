@@ -13,10 +13,17 @@
     padding: 20px 5px;
 }
 
+.nav-left {
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo_white {
     height: auto;
     width: 15%;
-    transition: all .2s ease-in-out;
     margin-left: 5%;
     cursor: pointer;
 }
@@ -30,13 +37,25 @@
 .contact-button {
     font-family: 'Kanit';
     background: white;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 5px 10px;
     margin-right: 5%;
     cursor: pointer;
+    margin-left: 5px;
     transition: all .2s ease-in-out;
 }
 
 .contact-button:hover {
     transform: scale(1.05);
+}
+
+.logo {
+    transform: scale(90%);
+    margin-bottom: -5px;
+    transition: all .2s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
