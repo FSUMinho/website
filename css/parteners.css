@@ -1,0 +1,15 @@
+.parteners-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 78px;
+    text-align: center;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
