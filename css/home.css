@@ -189,3 +189,27 @@
     cursor: pointer;
     transform: scale(1.04);
 }
+
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sponsors-title {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    background: #e52516;
+    border-radius: 10px;
+    padding: 30px 10px;
+    transition: all .2s ease-in-out;
+}
+
+.sponsors-title:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
