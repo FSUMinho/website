@@ -27,26 +27,40 @@
     text-align: center;
 }
 
+.depart-container{
+    width: 100%;
+    height: max-content;
+    max-width: 100%;
+}
+
 .departments-grid-1 {
+    width: 100%;
     font-family: 'Kanit';
     display: grid;
     gap: 50px 50px;
-    grid-template-rows: repeat (1, 1fr);
-    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat (auto, 1fr);
+    grid-template-columns: repeat (5, 1fr);
     justify-content: center;
     margin-bottom: 50px;
     transition: .2s ease-in-out;
     margin-top: 20px;
 }
 
-.departments-grid-2 {
-    font-family: 'Kanit';
-    display: grid;
-    gap: 50px 50px;
-    grid-template-rows: repeat (1, 1fr);
-    grid-template-columns: repeat (2, 1fr);
-    justify-content: center;
+@media (max-width: 1000px) {
+    .departments-grid-1 {
+        width: 100%;
+        height: max-content;
+        grid-template-rows: repeat (2, 1fr);
+        grid-template-columns: repeat (3, 1fr);
+    }
+
+    .mnt {grid-area: 1 / 1;}
+    .pwrt {grid-area: 1 / 2;}
+    .ecu {grid-area: 1 / 3;}
+    .dvrt {grid-area: 2 / 1;}
+    .body {grid-area: 2 / 2;}
 }
+
 
 .card {
     background: #e52516;
@@ -110,7 +124,7 @@
 }
 
 .dvrt {
-    grid-area: 1 / 1;
+    grid-area: 1 / 4;
 }
 
 .dvrt:hover {
@@ -126,7 +140,7 @@
 }
 
 .body {
-    grid-area: 1 / 2;
+    grid-area: 1 / 5;
 }
 
 .body:hover {
