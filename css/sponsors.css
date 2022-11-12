@@ -1,0 +1,26 @@
+.title-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 78px;
+    text-align: center;
+}
+
+.sponsors-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tier {
+    margin-top: 20px;
+}
+
+.tier-title {
+    font-weight: bold;
+    font-size: 30px;
+}

@@ -1,11 +1,45 @@
 .parteners-title-container {
-    display: grid;
+    display: flex;
+    height: 100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     margin-top: 78px;
     text-align: center;
-    gap: 50px 50px;
-    grid-template-rows: repeat (4, 1fr);
-    grid-template-columns: repeat (2, 1fr);
+    margin-bottom: 20px;
+}
+
+.parteners-grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parteners-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px 150px;
+}
+
+.partener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 150px;
+    transition: all .2s ease-in-out;
+}
+
+.partener:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.part {
+    height: 100%;
+    width: 100%;
 }
 
