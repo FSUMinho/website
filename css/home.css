@@ -4,16 +4,15 @@
     justify-content: center;
     align-items: center;
     background: 
-    linear-gradient(
+        linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(../imgs/fs.png);
+        ), url(../imgs/fs.png);
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
     margin-top: 78px;
-    vertical-align: middle;
     text-align: center;
     color: white;
 }
@@ -23,16 +22,25 @@
     margin-bottom: 70px;
 }
 
-.departments-title {
+.why-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
+.why-text {
+    margin-top: -20px;
+}
+
 .depart-container {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .card {
@@ -107,6 +115,35 @@
     background-size: cover;
 }
 
+.stats-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stats-card {
+    margin-top: -20px;
+    background: #e52516;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .competition-container {
     display: flex;
     flex-direction: column;
@@ -132,12 +169,33 @@
     margin-top: -20px;
 }
 
+.roadmap-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.roadmap-text-container {
+    margin-top: -20px;
+}
+
+.month {
+    font-family: 'Kanit';
+    font-weight: bold;
+    background: #e52516;
+    color: white;
+    padding: 4px 4px;
+    border-radius: 10px;
+}
+
 .parteners-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .parteners-title {
