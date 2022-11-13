@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>FSUMinho</title>
 </head>
@@ -123,8 +124,7 @@
         </h1>
 
         <p class="green-text">
-            We are commited to a <span style="color:#084d6e">greener future</span>. That's why we chose <br>
-            to equip our car with an electric power unit. <br>
+            We are commited to a <span style="color:#084d6e">greener future</span>. That's why we chose to <br> equip our car with an electric power unit. <br>
             The team will also support a <span style="color:#084d6e">circular economy</span>, promoting <br>
             the reuse of electrical components from portuguese industries <br>
             in order to <span style="color:#084d6e">reduce e-waste</span>.
@@ -132,35 +132,57 @@
     </div>
 
     <div class="roadmap-container" data-aos="fade-up">
-        <h1>Roadmap</h1>
+        <h1 class="roadmap-title">Roadmap</h1>
 
-        <div class="roadmap-text-container">
-            <ul>
-                <li>
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slides">
+                <div id="slides__1" class="slide">
+                  <span class="slide__text">
+                    <span class="month">february '23</span> <br>
                     <p>
-                        <span class="month">february '23</span> Present a prototype of an electric powered car to compete in class 2.
+                        Present a prototype of an electric <br> 
+                        powered car to compete in class 2.
                     </p>
-                </li>
-
-                <li>
+                  </span>
+                  <a class="slide__prev" href="#slides__4" title="Next"></a>
+                  <a class="slide__next" href="#slides__2" title="Next"></a>
+                </div>
+                <div id="slides__2" class="slide">
+                  <span class="slide__text">
+                    <span class="month">march '23</span> <br>
                     <p>
-                        <span class="month">march '23</span> Have established partenerships with companies.
+                        Have established partenerships <br>
+                        with companies.
                     </p>
-                </li>
-
-                <li>
+                  </span>
+                  <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                  <a class="slide__next" href="#slides__3" title="Next"></a>
+                </div>
+                <div id="slides__3" class="slide">
+                  <span class="slide__text">
+                    <span class="month">april '23</span> <br>
                     <p>
-                        <span class="month">april '23</span> Gather suplies to assemble the car.
+                        Gather suplies to assemble the car.
                     </p>
-                </li>
-
-                <li>
-                    <p>
-                        <span class="month">june '23</span> Participate in competitions.
-                    </p>
-                </li>
-            </ul>
-        </div>
+                  </span>
+                  <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                  <a class="slide__next" href="#slides__4" title="Next"></a>
+                </div>
+                <div id="slides__4" class="slide">
+                  <span class="slide__text">
+                    <span class="slide__text">
+                        <span class="month">june '23</span> <br>
+                        <p>
+                            Participate in competitions.
+                        </p>
+                  </span>
+                  <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                  <a class="slide__next" href="#slides__1" title="Prev"></a>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
 
     <div class="parteners-container" data-aos="fade-up">
