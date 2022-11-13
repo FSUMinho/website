@@ -55,4 +55,5 @@ p {
   width: 70vw;
   height: 5px;
   background: black;
+  border-radius: 10px;
 }

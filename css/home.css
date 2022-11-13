@@ -51,7 +51,8 @@
     align-items: center;
     width: 100px;
     height: 100px;
-    border-radius: 5%;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .mnt:hover {
@@ -127,7 +128,7 @@
 .stats-card {
     margin-top: -20px;
     background: #e52516;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     padding: 20px 20px;
     display: flex;
@@ -174,11 +175,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-
-.roadmap-text-container {
-    margin-top: -20px;
 }
 
 .month {
@@ -186,8 +182,8 @@
     font-weight: bold;
     background: #e52516;
     color: white;
-    padding: 4px 4px;
-    border-radius: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
 }
 
 .parteners-container {
@@ -199,13 +195,14 @@
 }
 
 .parteners-title {
+    margin-top: 20px;
     font-style: italic;
     font-weight: bold;
     font-size: 50px;
     color: white;
     background: #e52516;
-    border-radius: 10px;
-    padding: 30px 10px;
+    border-radius: 20px;
+    padding: 30px 20px;
     transition: all .2s ease-in-out;
 }
 
@@ -228,8 +225,8 @@
     font-size: 50px;
     color: white;
     background: #e52516;
-    border-radius: 10px;
-    padding: 30px 10px;
+    border-radius: 20px;
+    padding: 30px 20px;
     transition: all .2s ease-in-out;
 }
 
