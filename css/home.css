@@ -44,6 +44,7 @@
 }
 
 .card {
+    font-weight: bold;
     background: #e52516;
     color: white;
     display: flex;
@@ -135,7 +136,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    column-gap: 40px;
 }
 
 .info {
@@ -184,6 +185,11 @@
     color: white;
     padding: 4px 10px;
     border-radius: 20px;
+}
+
+.goals {
+    margin-left: 0vw;
+    margin-right: 0vw;
 }
 
 .parteners-container {
