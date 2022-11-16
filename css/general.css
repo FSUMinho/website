@@ -32,6 +32,11 @@ p {
   font-size: 20px;
 }
 
+.text {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
 /* SCROLL */
 
 *::-webkit-scrollbar {
