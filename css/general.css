@@ -29,7 +29,12 @@ p {
   font-family: 'Kanit';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.text {
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 
 /* SCROLL */
