@@ -1,0 +1,13 @@
+.team-grid {
+    gap: 50px 50px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.member {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    
+    background-color: #e52516;
+}
