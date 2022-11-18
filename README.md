@@ -4,4 +4,4 @@ Website for FSUMinho Formula Student Team <br>
 <br>
 <br>
 <br>
-<img src="https://github.com/Duarte0903/fsuminho/blob/main/imgs/logo_red.png">
+<img src="https://github.com/Duarte0903/fsuminho/blob/main/imgs/nav/logo_red.png">
