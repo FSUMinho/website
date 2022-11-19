@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/ecu.css">
+    <link rel="stylesheet" href="../css/members_grid.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <title>FSUMinho</title>
+    <title>FSUMinho-ESW</title>
 </head>
 <body>
     <nav class="nav">
@@ -47,11 +48,26 @@
     </div>
 
     <div class="ecu-team-container" data-aos="fade-up">
-        <h1 class="ecu-team-title">ECU team</h1>
+        <h1 class="ecu-team-title">ESW team</h1>
 
-        <div class="ecu-team-grid">
-            <div class="team-card">
+        <div class="team-grid display:flex justify-content:center align-items:center flex-wrap:wrap">
+            <div class="member">
+                <div class="team-role">
+                    <p>
+                        Cargo
+                    </p>
+                </div>
 
+                <div class="photo-container">
+                    <img src="../imgs/generic.jpg" class="photo">
+                </div>
+
+                <div class="description">
+                    <p class="description-text">
+                        Bruno Filipe <br>
+                        Software Engineering
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -59,5 +75,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>
     
+    <script src="https://cdn.jsdelivr.net/npm/@stylify/stylify@latest/dist/stylify.min.js"></script>
+
 </body>
 </html>
