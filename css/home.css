@@ -172,6 +172,11 @@
     margin-top: -20px;
 }
 
+.green-car {
+    height: auto;
+    width: 600px;
+}
+
 .roadmap-container {
     display: flex;
     flex-direction: column;
