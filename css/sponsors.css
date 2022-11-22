@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: -60px;
 }
 
 .tier {
@@ -23,4 +24,26 @@
 .tier-title {
     font-weight: bold;
     font-size: 30px;
+}
+
+.work-with-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.work-with-us-button {
+    font-weight: bold;
+    background-color: #e52516;
+    color: white;
+    font-size: 50px;
+    border-radius: 20px;
+    padding: 30px 20px;
+    transition: all .2s ease-in-out;
+}
+
+.work-with-us-button:hover {
+    cursor: pointer;
+    transform: scale(1.04);
 }

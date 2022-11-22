@@ -36,6 +36,7 @@
 }
 
 .depart-container {
+    margin-top: -20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,8 +51,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border-radius: 20px;
     padding: 10px;
 }
@@ -169,6 +170,11 @@
 
 .green-text {
     margin-top: -20px;
+}
+
+.green-car {
+    height: auto;
+    width: 600px;
 }
 
 .roadmap-container {

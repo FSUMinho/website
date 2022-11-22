@@ -1,0 +1,38 @@
+.team-grid {
+    gap: 70px 100px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.member {
+    width: 300px;
+    height: 440px;
+    border-radius: 20px;
+    background-color: #e52516;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-container {
+    height: 250px;
+    width: auto;
+}
+
+.team-role {
+    color: white;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.photo {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.description-text {
+    color: white;
+    font-size: 20px;
+}
