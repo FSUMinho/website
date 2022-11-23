@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/drivetrain.css">
-    <link rel="stylesheet" href="../css/members_grid.css">
+    <link rel="stylesheet" href="../css/sectors.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>FSUMinho</title>
 </head>
@@ -32,7 +31,14 @@
         </div>
     </nav>
 
-    <div class="title-container" data-aos="fade">
+    <div class="title-container" data-aos="fade"
+    style="background: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+            ), url(../imgs/departments/dvrt.png);
+        background-position: center;
+        background-size: cover;">
         <h1>DriveTrain</h1>
     </div>
 
@@ -46,10 +52,10 @@
         </p>
     </div>
 
-    <div class="drive-team-container" data-aos="fade-up">
+    <div class="team-container" data-aos="fade-up">
         <h1 class="drive-team-title">DriveTrain team</h1>
 
-        <div class="team-grid display:flex justify-content:center align-items:center flex-wrap:wrap">
+        <div class="team_grid">
             <div class="member">
                 <div class="team-role">
                     <p>
@@ -87,6 +93,26 @@
                     </p>
                 </div>
             </div>
+
+            <div class="member">
+                <div class="team-role">
+                    <p>
+                        Integration with <br>
+                        powertrain
+                    </p>
+                </div>
+    
+                <div class="photo-container">
+                    <img src="../imgs/generic.jpg" class="photo">
+                </div>
+    
+                <div class="description">
+                    <p class="description-text">
+                        Francisco Novais <br>
+                        Mechanical Engineering
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -94,6 +120,7 @@
     <script> AOS.init(); </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@stylify/stylify@latest/dist/stylify.min.js"></script>
+    <script src="../javascript/stylify-config.js"></script>
 
 </body>
 </html>
