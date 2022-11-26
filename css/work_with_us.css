@@ -26,15 +26,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .how-to-invest-title {
     font-size: 40px;
-    margin-bottom: -20px;
 }
 
 .investor-tiers-container {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,5 +43,71 @@
 
 .investor-tiers-title {
     font-size: 40px;
-    margin-bottom: -20px;
+}
+
+.investment-methods-container {
+    gap: 40px 40px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.investment-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #e52516;
+    height: 450px;
+    width: 500px;
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+
+.method-title {
+    font-family: 'Kanit';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img {
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.investor-tiers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.investment-packages-container {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.package {
+    border-style:solid;
+    border-color: #e52516;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 800px;
+    padding: 0px 20px;
+}
+
+.expetations {
+    color: white;
+    background-color: #e52516;
+    border-radius: 20px;
+    margin-top: -10px;
+    padding: 15px;
 }
