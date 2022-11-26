@@ -33,6 +33,7 @@
 }
 
 .investor-tiers-container {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +59,7 @@
     text-align: center;
     color: white;
     background-color: #e52516;
-    height: 350px;
+    height: 450px;
     width: 500px;
     padding: 0px 20px;
     border-radius: 20px;
@@ -68,6 +69,12 @@
     font-family: 'Kanit';
     font-size: 30px;
     font-weight: bold;
+}
+
+.img {
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
 }
 
 .investor-tiers-container {

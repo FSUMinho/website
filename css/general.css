@@ -4,7 +4,7 @@ html, body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  background-image: url(../imgs/backgroundFSUM.png);
+  /*background-image: url(../imgs/backgroundFSUM.png);*/
   margin-bottom: 20px;
 }
 

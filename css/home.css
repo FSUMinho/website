@@ -55,11 +55,12 @@
     height: 140px;
     border-radius: 20px;
     padding: 10px;
+    transition: all .5s ease-in-out;
 }
 
 .mnt:hover {
     cursor: pointer;
-    transition: all 5s ease;
+    transition: all .5s ease;
     background: 
     linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -68,10 +69,11 @@
     background-position: center;
     background-size: cover;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .pwrt:hover {
-    transition: all 5s ease;
+    transition: all .5s ease;
     cursor: pointer;
     background: 
     linear-gradient(
@@ -80,10 +82,11 @@
     ), url(../imgs/departments/pwrt.png);
     background-position: center;
     background-size: cover;
+    transform: scale(1.05);
 }
 
 .ecu:hover {
-    transition: all 2.5s ease;
+    transition: all .5s ease;
     cursor: pointer;
     background: 
     linear-gradient(
@@ -92,10 +95,11 @@
     ), url(../imgs/departments/ecu.png);
     background-position: center;
     background-size: cover;
+    transform: scale(1.05);
 }
 
 .dvrt:hover {
-    transition: all 5s ease;
+    transition: all .5s ease;
     cursor: pointer;
     background: 
     linear-gradient(
@@ -104,10 +108,11 @@
     ), url(../imgs/departments/dvrt.png);
     background-position: center;
     background-size: cover;
+    transform: scale(1.05);
 }
 
 .body:hover {
-    transition: all 5s ease;
+    transition: all .5s ease;
     cursor: pointer;
     background: 
     linear-gradient(
@@ -116,6 +121,7 @@
     ), url(../imgs/departments/body.png);
     background-position: center;
     background-size: cover;
+    transform: scale(1.05);
 }
 
 .stats-container {
@@ -172,9 +178,9 @@
     margin-top: -20px;
 }
 
-.green-car {
+.green-img {
     height: auto;
-    width: 600px;
+    width: 300px;
 }
 
 .roadmap-container {
@@ -182,6 +188,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .month {
