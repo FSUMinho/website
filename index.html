@@ -64,7 +64,7 @@
             Our departments
         </h1>
 
-        <div class="display:flex justify-content:center align-items:center flex-wrap:wrap gap:30px 30px">
+        <div class="grid depart-grid">
             <a class="mnt card" href="html/management.html">Management</a>
     
             <a class="pwrt card" href="html/powertrain.html">PowerTrain</a>
@@ -80,26 +80,50 @@
     <div class="stats-container" data-aos="fade-up">
         <h1 class="stats-title">Statistics</h1>
 
-        <div class="stats-card">
-            <p class="stats-text">
-                <div class="left-info info">
+        <div class="stat-cards-container grid">
+            <div class="stat-card">
+                <img src="imgs/icons/team.png" class="stat-icon">
+
+                <div class="stat-text">
                     <p>
-                        Members: 35
-                        <br>
-                        <br>
-                        Couses: 7
+                        <span class="stat-number">35</span> <br>
+                        members
+                    </p>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-text">
+                    <p>
+                        <span class="stat-number">2</span> <br>
+                        years
                     </p>
                 </div>
 
-                <div class="right-info info">
+                <img src="imgs/icons/calendar.png" class="stat-icon">
+            </div>
+
+            <div class="stat-card">
+                <img src="imgs/icons/graduation-hat.png" class="stat-icon">
+
+                <div class="stat-text">
                     <p>
-                        Years: 2
-                        <br>
-                        <br>
-                        Cars: 0
+                        <span class="stat-number">7</span> <br>
+                        courses
                     </p>
                 </div>
-            </p>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-text">
+                    <p>
+                        <span class="stat-number">0</span> <br>
+                        cars
+                    </p>
+                </div>
+
+                <img src="imgs/icons/race-car.png" class="stat-icon">
+            </div>
         </div>
     </div>
 
@@ -213,6 +237,7 @@
     <script> AOS.init(); </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@stylify/stylify@latest/dist/stylify.min.js"></script>
+    <script src="javascript/stylify-config.js"></script>
 
 </body>
 </html>

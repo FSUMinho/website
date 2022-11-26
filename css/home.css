@@ -44,6 +44,10 @@
     text-align: center;
 }
 
+.depart-grid {
+    gap: 30px 30px;
+}
+
 .card {
     font-weight: bold;
     background: #e52516;
@@ -133,24 +137,33 @@
     text-align: center;
 }
 
-.stats-card {
-    margin-top: -20px;
-    background: #e52516;
-    border-radius: 20px;
-    color: white;
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 40px;
+.stat-cards-container {
+    gap: 50px 50px;
+    margin-right: 20vw;
+    margin-left: 20vw;
 }
 
-.info {
+.stat-card {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
     align-items: center;
+    justify-content: center;
+    background: #e52516;
+    color: white;
+    border-radius: 20px;
+    height: auto;
+    width: 400px;
+}
+
+.stat-icon {
+    height: auto;
+    width: 100px;
+}
+
+.stat-number {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .competition-container {
