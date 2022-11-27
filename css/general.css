@@ -4,8 +4,6 @@ html, body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  /*background-image: url(../imgs/backgroundFSUM.png);*/
-  margin-bottom: 20px;
 }
 
 li {
@@ -40,11 +38,11 @@ p {
 /* SCROLL */
 
 *::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
   }
   
   *::-webkit-scrollbar-track {
-    background: rgb(255, 255, 255);
+    background: white
   }
   
   *::-webkit-scrollbar-thumb {

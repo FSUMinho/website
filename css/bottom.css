@@ -1,0 +1,37 @@
+.bottom-container {
+    margin-top: 60px;
+    color: white;
+    background-color: #e52516;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 30px;
+    font-family: 'Kanit';
+    gap: 40px;
+}
+
+.bottom-sub-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 40%;
+}
+
+.bottom-logo {
+    height: auto;
+    width: 300px;
+}
