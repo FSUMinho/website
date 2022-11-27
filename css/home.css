@@ -3,18 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 78px;
+    text-align: center;
     background: 
         linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
         ), url(../imgs/fs.png);
+    color: white;
     background-position: center;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin-top: 78px;
-    text-align: center;
-    color: white;
 }
 
 .introduction-text {
@@ -139,8 +137,8 @@
 
 .stat-cards-container {
     gap: 50px 50px;
-    margin-right: 20vw;
-    margin-left: 20vw;
+    margin-right: 23vw;
+    margin-left: 23vw;
 }
 
 .stat-card {
