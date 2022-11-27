@@ -5,5 +5,5 @@
 <br>
 <br>
 **Open source projects used:** <br>
-<li>[Stylify](https://github.com/stylify)</li>
-<li>[AOS - Animate on scroll library](https://github.com/michalsnik/aos)</li>
+- [Stylify](https://github.com/stylify)
+- [AOS - Animate on scroll library](https://github.com/michalsnik/aos)
