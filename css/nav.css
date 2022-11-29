@@ -1,7 +1,7 @@
 .nav {
     overflow: hidden;
     background-color: #e52516;
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 40px;
     display: flex;
