@@ -8,7 +8,6 @@
     font-size: 15px;
     padding: 30px;
     font-family: 'Kanit';
-    gap: 40px;
 }
 
 .bottom-sub-container {
@@ -27,8 +26,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: 40%;
 }
 
 .bottom-logo {
