@@ -24,6 +24,11 @@
 .tier-title {
     font-weight: bold;
     font-size: 30px;
+    width: 70vw;
+    padding: 5px;
+    background-color: #e52516;
+    border-radius: 20px;
+    color: white;
 }
 
 .work-with-us-container {
@@ -46,6 +51,7 @@
 .work-with-us-button:hover {
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .company-grid {

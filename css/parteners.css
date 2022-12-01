@@ -1,12 +1,16 @@
 .parteners-title-container {
     display: flex;
-    height: 100%;
-    width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 78px;
     text-align: center;
-    margin-bottom: 20px;
+}
+
+.parteners-title {
+    background-color: #e52516;
+    color: white;
+    margin-top: 120px;
+    border-radius: 20px;
+    padding: 40px;
 }
 
 .parteners-grid-container {
@@ -16,11 +20,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -20px;
 }
 
 .grid {
-    margin-top: 40px;
-    gap: 50px 150px;
+    gap: 50px 120px;
 }
 
 .partener {
