@@ -29,6 +29,7 @@ form input, form textarea {
     outline: none;
     font-size: 16px;
     font-family: 'Kanit';
+    background-color: white;
 }
 
 form button {
@@ -39,7 +40,9 @@ form button {
     cursor: pointer;
     width: 150px;
     margin: 20px auto 0;
-    border-radius: 30px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: 'Kanit';
 }
 
 .form-field {

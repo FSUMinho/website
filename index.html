@@ -20,6 +20,13 @@
         </a>
         
         <div class="nav-right">
+            <div class="language-selector">
+                <select disabled="true" id="langSelector" name="lang">
+                  <option value="pt">Portuguese</option>
+                  <option value="en">English</option>
+                </select>
+              </div>
+
             <a class="insta-logo-link" href="https://www.instagram.com/fsuminho/">
                 <img src="imgs/nav/insta.png" class="logo">
             </a>
@@ -35,7 +42,7 @@
     </nav>
 
     <div class="introduction-container" data-aos="fade">
-        <h1 class="introduction-title">
+        <h1 class="introduction-title i18nelement"  data-i18n="home.about-us">
             About us
         </h1>
 
@@ -48,7 +55,7 @@
     </div>
 
     <div class="why-container" data-aos="fade-up">
-        <h1 class="why-title">Why Formula Student</h1>
+        <h1 class="why-title i18nelement" data-i18n="home.why-fs">Why Formula Student</h1>
 
         <p class="why-text text">
             Formula Student gives us students the chance to get a taste of the 
@@ -61,7 +68,7 @@
     </div>
 
     <div class="depart-container" data-aos="fade-up">
-        <h1 class="departments-title">
+        <h1 class="departments-title i18nelement" data-i18n="home.sectors-title">
             Our sectors
         </h1>
 
@@ -79,7 +86,7 @@
     </div>
 
     <div class="stats-container" data-aos="fade-up">
-        <h1 class="stats-title">Statistics</h1>
+        <h1 class="stats-title i18nelement" data-i18n="home.statistics-title">Statistics</h1>
 
         <div class="stat-cards-container grid">
             <div class="stat-card">
@@ -88,7 +95,7 @@
                 <div class="stat-text">
                     <p>
                         <span class="stat-number">35</span> <br>
-                        members
+                        <span class="i18nelement" data-i18n="home.statistics-members">members</span>
                     </p>
                 </div>
             </div>
@@ -97,7 +104,7 @@
                 <div class="stat-text">
                     <p>
                         <span id="years" class="stat-number"></span> <br>
-                        years
+                        <span class="i18nelement" data-i18n="home.statistics-years">years</span>
                     </p>
                 </div>
 
@@ -110,7 +117,7 @@
                 <div class="stat-text">
                     <p>
                         <span class="stat-number">7</span> <br>
-                        courses
+                        <span class="i18nelement" data-i18n="home.statistics-courses">courses</span>
                     </p>
                 </div>
             </div>
@@ -119,7 +126,7 @@
                 <div class="stat-text">
                     <p>
                         <span class="stat-number">1</span> <br>
-                        car
+                        <span class="i18nelement" data-i18n="home.statistics-cars">car</span>
                     </p>
                 </div>
 
@@ -129,7 +136,7 @@
     </div>
 
     <div class="competition-container" data-aos="fade-up">
-        <h1 class="competiton-title">The competition</h1>
+        <h1 class="competiton-title i18nelement" data-i18n="home.competition-title">The competition</h1>
 
         <p class="competition-text text">
             Formula Student is divided in 3 classes: <br>
@@ -143,7 +150,7 @@
     </div>
 
     <div class="green-container" data-aos="fade-up">
-        <h1 class="green-title">
+        <h1 class="green-title i18nelement" data-i18n="home.planet-title">
             Commitment with <br>
             the planet 
         </h1>
@@ -269,6 +276,9 @@
             <img src="imgs/nav/logo_white.png" class="bottom-logo">
         </div>
     </div>
+
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+<script src="javascript/i18next-config.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>
