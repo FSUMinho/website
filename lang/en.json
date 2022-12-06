@@ -1,4 +1,14 @@
 {
+    "courses":
+    {
+        "EGSI": "Information Systems <br> Engineering & Management",
+        "EQB": "Chemical & Biological Engineering",
+        "EM": "Materials Engineering",
+        "EB": "Bilogical Engineering",
+        "EI": "Software Engineering",
+        "EGI": "Engineering & Industrial Management"
+    },
+
     "home":
     {
         "about-us": "About us",
@@ -14,7 +24,29 @@
         "statistics-cars": "car",
 
         "competition-title": "The competition",
+        "competition-text": "Formula Student is divided in 3 classes. <br> <span style='color: #084d6e'>Class 2</span> requires the presentation of a project and a prototype. <span style='color: #084d6e'>Class 1</span> will require a dynamic presentation of a car equiped with an internal combustion engine. <span style='color: #084d6e'>Class 1A</span> challenges teams to build a car moved by an alternative source of energy.",
 
-        "planet-title": "Commitment with the planet"
+        "planet-title": "Commitment with the planet",
+        "planet-text": "We are commited to a <span style='color:#084d6e'>greener future</span>. That's why we chose to equip our car with an electric power unit. The team will also support a <span style='color:#084d6e'>circular economy</span>, promoting the reuse of electrical components from portuguese industries in order to <span style='color:#084d6e'>reduce e-waste</span>. At least 25% of electronic 'trash' that reaches recycling centers, still is higly reusable. This materials are fundamental to <span style='color:#084d6e'>reduce our carbon footprint</span>.",
+
+        "roadmap1": "<span Class='month'>february '23</span> <br> <p class='goals'>Present a prototype of an <br> electric car to compete in <br> class 2.</p>",
+        "roadmap2": "<span Class='month'>march '23</span> <br> <p class='goals'>Have established <br> partenerships with <br> companies.</p>",
+        "roadmap3": "<span Class='month'>april '23</span> <br> <p class='goals'>Gather suplies to <br> assemble the car.</p>",
+        "roadmap4": "<span Class='month'>june '23</span> <br> <p class='goals'>Participate in <br> competitions.</p>",
+
+        "inst-parteners": "Intitutional Parteners",
+        "sponsors": "Sponsors & Parteners"
+    },
+
+    "mnt": 
+    {
+        "title": "Our role",
+        "text": "The management sector handles the <span style='color:#084d6e'>business</span> side of the team. It is its responsibility to gather funds for the project via <span style='color:#084d6e'>partnerships</span> and also for its <span style='color:#084d6e'>marketing</span>. Management also has to fulfil the needs of the other departments. This includes ordering parts and tools or provide trainning sessions.",
+        "team": "Management team",
+        "leader": "Team Leader",
+        "head": "Sector Head",
+        "contacts": "External Contacts",
+        "team-mnt": "Team Management",
+        "coms": "Communications"
     }
 }

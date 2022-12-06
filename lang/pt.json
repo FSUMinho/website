@@ -1,4 +1,14 @@
 {
+    "courses":
+    {
+        "EGSI": "Engenharia e Gestão de <br> Sistemas de Informação",
+        "EQB": "Engenharia Quimica <br> e Biológica",
+        "EM": "Engenharia de Materiais",
+        "EB": "Engenharia Biológica",
+        "EI": "Engenharia Informática",
+        "EGI": "Engenharia e Gestão <br> Industrial"
+    },
+
     "home":
     {
         "about-us": "Sobre nós",
@@ -14,7 +24,29 @@
         "statistics-cars": "carro",
 
         "competition-title": "A competição",
+        "competition-text": "A Formula Student está devidida em 3 classes. <br> A <span style='color: #084d6e'>Classe 2</span> requer a apresentaçãp de um projeto e um protótipo. A <span style='color: #084d6e'>Classe 1</span> consiste na apresentação dinâmica de um carro equipada com um motor a combustão. A <span style='color: #084d6e'>Classe 1A</span> desafia as equipas a construir um carro movido por energias alternativas.",
 
-        "planet-title": "Compromisso com o planeta"
+        "planet-title": "Compromisso com o planeta",
+        "planet-text": "Comprometemo-nos a contribuir para um <span style='color: #084d6e'>futuro mais verde</span>. É por essa razão que equipamos o nosso carro com um motor elétrico. A equipa irá também promover uma <span style='color: #084d6e'>economia circular</span>, recorrendo à reutilização de componentes eletrónicos de indústrias portuguesas de maneira a <span style='color: #084d6e'>reduzir o e-waste</span>. Pelo menos 25% do 'lixo' eletrónico que chega aos centros de reciclagem, tem uma alta taxa de reutilização. Estes materiais são fundamentais para a <span style='color: #084d6e'>redução da nossa pegada de carbono</span>.",
+
+        "roadmap1": "<span Class='month'>fevereiro '23</span> <br> <p class='goals'>Apresentar um protótipo de <br> um carro elétrico para <br> competir na classe 2</p>",
+        "roadmap2": "<span Class='month'>março '23</span> <br> <p class='goals'>Ter parcerias estabelecidas <br> com empresas</p>",
+        "roadmap3": "<span Class='month'>abril '23</span> <br> <p class='goals'>Adquirir materiais <br> para construir o carro</p>",
+        "roadmap4": "<span Class='month'>junho '23</span> <br> <p class='goals'>Participar em <br> competições</p>",
+
+        "inst-parteners": "Parceiros Institucionais",
+        "sponsors": "Patrocinadores & Parceiros"
+    },
+
+    "mnt":
+    {
+        "title": "A nossa função",
+        "text": "A equipa de management e responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
+        "team": "Equipa de management",
+        "leader": "Lider da Equipa",
+        "head": "Chefe de Setor",
+        "contacts": "Contactos Externos",
+        "team-mnt": "Gestão da Equipa",
+        "coms": "Comunicações"  
     }
 }

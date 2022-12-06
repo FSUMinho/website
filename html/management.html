@@ -19,6 +19,13 @@
         </a>
         
         <div class="nav-right">
+            <div class="language-selector">
+                <select disabled="true" id="langSelector" name="lang">
+                    <option value="pt">Português</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+
             <a class="insta-logo-link" href="https://www.instagram.com/fsuminho/">
                 <img src="../imgs/nav/insta.png" class="logo">
             </a>
@@ -45,9 +52,9 @@
     </div>
 
     <div class="introduction-container" data-aos="fade-up">
-        <h1 class="introduction-title">Our role</h1>
+        <h1 class="introduction-title i18nelement" data-i18n="mnt.title">Our role</h1>
 
-        <p class="introduction-text text">
+        <p class="introduction-text text i18nelement" data-i18n="mnt.text">
             The management sector handles the <span style="color:#084d6e">business</span> side of the team.
             We are responsible for gathering funds for the project via <span style="color:#084d6e">partnerships</span> and
             also for its <span style="color:#084d6e">marketing</span>. It's also our job to fulfil the needs of the other
@@ -56,14 +63,12 @@
     </div>
 
     <div class="team-container" data-aos="fade-up">
-        <h1 class="mnt-team-title">Management team</h1>
+        <h1 class="mnt-team-title i18nelement" data-i18n="mnt.team"></h1>
 
         <div class="grid">
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Team Leader
-                    </p>
+                    <p class="i18nelement" data-i18n="mnt.leader"></p>
                 </div>
 
                 <div class="photo-container">
@@ -73,16 +78,14 @@
                 <div class="description">
                     <p class="description-text">
                         Francisco Forte <br>
-                        Information Systems Engineering & Management
+                        <span class="i18nelement" data-i18n="courses.EGSI"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Sector Head
-                    </p>
+                    <p class="i18nelement" data-i18n="mnt.head"></p>
                 </div>
 
                 <div class="photo-container">
@@ -92,16 +95,14 @@
                 <div class="description">
                     <p class="description-text">
                         Beatriz Ribeiro <br>
-                        Chemical & Biological Engineering
+                        <span class="i18nelement" data-i18n="courses.EQB"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        External Contacts
-                    </p>
+                    <p class="i18nelement" data-i18n="mnt.contacts"></p>
                 </div>
 
                 <div class="photo-container">
@@ -111,16 +112,14 @@
                 <div class="description">
                     <p class="description-text">
                         Sofia Fernandes <br>
-                        Materials Engennering
+                        <span class="i18nelement" data-i18n="courses.EM"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Team Management
-                    </p>
+                    <p class="i18nelement" data-i18n="mnt.team-mnt"></p>
                 </div>
 
                 <div class="photo-container">
@@ -130,16 +129,14 @@
                 <div class="description">
                     <p class="description-text">
                         Maria João Lourenço <br>
-                        Information Systems Engineering & Management
+                        <span class="i18nelement" data-i18n="courses.EGSI"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Team Management
-                    </p>
+                    <p class="i18nelement" data-i18n="mnt.team-mnt"></p>
                 </div>
 
                 <div class="photo-container">
@@ -149,16 +146,14 @@
                 <div class="description">
                     <p class="description-text">
                         Rafael Mendes <br>
-                        Biological Engineering
+                        <span class="i18nelement" data-i18n="courses.EB"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Communications
-                    </p>
+                    <p class="i18nelement" data-i18n="mnt.coms"></p>
                 </div>
 
                 <div class="photo-container">
@@ -168,16 +163,14 @@
                 <div class="description">
                     <p class="description-text">
                         Duarte Leitão <br>
-                        Software Engineering
+                        <span class="i18nelement" data-i18n="courses.EI"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        External Contacts
-                    </p>
+                    <p class="i18nelement" data-i18n="mnt.contacts"></p>
                 </div>
 
                 <div class="photo-container">
@@ -187,7 +180,7 @@
                 <div class="description">
                     <p class="description-text">
                         José Gomes <br>
-                        Engineering & Industrial Management
+                        <span class="i18nelement" data-i18n="courses.EGI"></span>
                     </p>
                 </div>
             </div>
@@ -229,6 +222,9 @@
             <img src="../imgs/nav/logo_white.png" class="bottom-logo">
         </div>
     </div>
+
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="../javascript/i18next-config.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>

@@ -69,4 +69,15 @@
     border-radius: 10px;
     padding: 5px 10px;
     transition: all .2s ease-in-out;
+    text-align: center;
+}
+
+option {
+    padding: 20px;
+    background-color: white;
+}
+
+option:hover {
+    cursor: pointer;
+
 }

@@ -35,6 +35,10 @@ select {
   all: unset;
 }
 
+option {
+  all: unset;
+}
+
 .text {
   margin-left: 15vw;
   margin-right: 15vw;
