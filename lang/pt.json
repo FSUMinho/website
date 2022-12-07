@@ -6,7 +6,8 @@
         "EM": "Engenharia de Materiais",
         "EB": "Engenharia Biológica",
         "EI": "Engenharia Informática",
-        "EGI": "Engenharia e Gestão <br> Industrial"
+        "EGI": "Engenharia e Gestão <br> Industrial",
+        "EEIC": "Engenharia Eletrónica <br> Industrial e Computadores"
     },
 
     "home":
@@ -48,5 +49,15 @@
         "contacts": "Contactos Externos",
         "team-mnt": "Gestão da Equipa",
         "coms": "Comunicações"  
+    },
+
+    "pwrt": 
+    {
+        "title": "A nossa função",
+        "text": "O setor de powertrain é responsável pelo desenvolvimento do <span style='color:#084d6e'>motor elétrico</span>. Cabe a este setor a este setor entregar uma unidade motriz <span style='color:#084d6e'>potente e durável</span>. <span style='color:#084d6e'>Eficiência</span> é um dos pontos mais importantes para powertrain. O motor deve ser programado de forma a que consuma sempre a quantidade certa de energia.",
+        "team": "Equipa de powertrain",
+        "head": "Chefe de Setor",
+        "acc": "Acumulador",
+        "inv": "Inversor"
     }
 }

@@ -63,7 +63,6 @@
 /* LANGUAGE SELECTOR */
 
 .language-selector {
-    position: relative;
     font-family: 'Kanit';
     background-color: white;
     border-radius: 10px;
@@ -72,12 +71,6 @@
     text-align: center;
 }
 
-option {
-    padding: 20px;
-    background-color: white;
-}
-
-option:hover {
+.language-selector:hover {
     cursor: pointer;
-
 }

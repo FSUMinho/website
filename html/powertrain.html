@@ -19,6 +19,13 @@
         </a>
         
         <div class="nav-right">
+            <div class="language-selector">
+                <select disabled="true" id="langSelector" name="lang">
+                    <option value="pt">Português</optio>
+                    <option value="en">English</option>
+                </select>
+            </div>
+
             <a class="insta-logo-link" href="https://www.instagram.com/fsuminho/">
                 <img src="../imgs/nav/insta.png" class="logo">
             </a>
@@ -45,27 +52,18 @@
     </div>
 
     <div class="introduction-container" data-aos="fade-up">
-        <h1 class="introduction-title">Our role</h1>
+        <h1 class="introduction-title i18nelement" data-i18n="pwrt.title"></h1>
 
-        <p class="introduction-text text">
-            The powertrain secton is responsible for the development of the <span style="color:#084d6e">power unit</span>.
-            It's our duty to deliver a <span style="color:#084d6e">reliable and powerful</span> electric motor.
-            <span  style="color:#084d6e">Efficiency</span> is also key in this sector. We need to make sure the power unit is 
-            consuming the right amount of energy.
-
-            
-        </p>
+        <p class="introduction-text text i18nelement" data-i18n="pwrt.text"></p>
     </div>
 
     <div class="team-container" data-aos="fade-up">
-        <h1 class="pwrt-team-title">PowerTrain team</h1>
+        <h1 class="pwrt-team-title i18nelement" data-i18n="pwrt.team"></h1>
 
         <div class="grid">
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Head of Sector
-                    </p>
+                    <p class="i18nelement" data-i18n="pwrt.head"></p>
                 </div>
 
                 <div class="photo-container">
@@ -75,16 +73,14 @@
                 <div class="description">
                     <p class="description-text">
                         João Miranda <br>
-                        Industrial Electronics & Computers Engineering
+                        <span class="i18nelement" data-i18n="courses.EEIC"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Accumulator
-                    </p>
+                    <p class="i18nelement" data-i18n="pwrt.acc"></p>
                 </div>
     
                 <div class="photo-container">
@@ -94,16 +90,14 @@
                 <div class="description">
                     <p class="description-text">
                         João Dias <br>
-                        Industrial Electronics & Computers Engineering
+                        <span class="i18nelement" data-i18n="courses.EEIC"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Accumulator
-                    </p>
+                    <p class="i18nelement" data-i18n="pwrt.acc"></p>
                 </div>
     
                 <div class="photo-container">
@@ -113,16 +107,14 @@
                 <div class="description">
                     <p class="description-text">
                         Marcos Novo <br>
-                        Industrial Electronics & Computers Engineering
+                        <span class="i18nelement" data-i18n="courses.EEIC"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Inverter
-                    </p>
+                    <p class="i18nelement" data-i18n="pwrt.inv"></p>
                 </div>
     
                 <div class="photo-container">
@@ -132,7 +124,7 @@
                 <div class="description">
                     <p class="description-text">
                         Ricardo Faria <br>
-                        Industrial Electronics & Computers Engineering
+                        <span class="i18nelement" data-i18n="courses.EEIC"></span>
                     </p>
                 </div>
             </div>
@@ -174,6 +166,9 @@
             <img src="../imgs/nav/logo_white.png" class="bottom-logo">
         </div>
     </div>
+
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="../javascript/i18next-config.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>

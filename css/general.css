@@ -31,17 +31,19 @@ p {
   font-size: 24px;
 }
 
-select {
-  all: unset;
-}
-
-option {
-  all: unset;
-}
-
 .text {
   margin-left: 15vw;
   margin-right: 15vw;
+}
+
+select {
+  border-style: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+option {
+  text-align: center;
 }
 
 /* SCROLL */

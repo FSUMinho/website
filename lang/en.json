@@ -6,7 +6,8 @@
         "EM": "Materials Engineering",
         "EB": "Bilogical Engineering",
         "EI": "Software Engineering",
-        "EGI": "Engineering & Industrial Management"
+        "EGI": "Engineering & Industrial Management",
+        "EEIC": "Industrial Electronics & Computers Engineering"
     },
 
     "home":
@@ -48,5 +49,15 @@
         "contacts": "External Contacts",
         "team-mnt": "Team Management",
         "coms": "Communications"
+    },
+
+    "pwrt": 
+    {
+        "title": "Our role",
+        "text": "The powertrain secton is responsible for the development of the <span style='color:#084d6e'>power unit</span>. It's the sector's duty to deliver a <span style='color:#084d6e'>reliable and powerful</span> electric motor.<span  style='color:#084d6e'> Efficiency</span> is also key in this sector. The power unit needs to be tuned in such a way that it is always consuming the right amount of energy.",
+        "team": "Powertrain team",
+        "head": "Sector Head",
+        "acc": "Accumulator",
+        "inv": "Inverter"
     }
 }
