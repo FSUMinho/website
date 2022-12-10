@@ -19,6 +19,13 @@
         </a>
         
         <div class="nav-right">
+            <div class="language-selector">
+                <select disabled="true" id="langSelector" name="lang">
+                    <option value="pt">PT</optio>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+            
             <a class="insta-logo-link" href="https://www.instagram.com/fsuminho/">
                 <img src="../imgs/nav/insta.png" class="logo">
             </a>
@@ -45,25 +52,18 @@
     </div>
 
     <div class="introduction-container" data-aos="fade-up">
-        <h1 class="introduction-title">Our role</h1>
+        <h1 class="introduction-title i18nelement" data-i18n="esw.title"></h1>
 
-        <p class="introduction-text text">
-            As the name suggests, the electronics & software sector handles all the <span style="color:#084d6e">electronic 
-            components and software</span> that keep the car safe and running smooth.
-            We make sure all the major components of the car are <span style="color:#084d6e">properly programmed</span>
-            and <span style="color:#084d6e">communicating</span> between each other.
-        </p>
+        <p class="introduction-text text i18nelement" data-i18n="esw.text"></p>
     </div>
 
     <div class="team-container" data-aos="fade-up">
-        <h1 class="ecu-team-title">ESW team</h1>
+        <h1 class="ecu-team-title i18nelement" data-i18n="esw.team"></h1>
 
         <div class="grid">
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Sector Head
-                    </p>
+                    <p class="i18nelement" data-i18n="esw.head"></p>
                 </div>
 
                 <div class="photo-container">
@@ -73,7 +73,7 @@
                 <div class="description">
                     <p class="description-text">
                         Diogo Gomes <br>
-                        Eletronic Engineering
+                        <span class="i18nelement" data-i18n="courses.EE"></span>
                     </p>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                 <div class="description">
                     <p class="description-text">
                         Bruno Filipe <br>
-                        Software Engineering
+                        <span class="i18nelement" data-i18n="courses.EI"></span>
                     </p>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                 <div class="description">
                     <p class="description-text">
                         Telmo Alves <br>
-                        Physical Engineering
+                        <span class="i18nelement" data-i18n="courses.EF"></span>
                     </p>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                 <div class="description">
                     <p class="description-text">
                         Tomás Abreu <br>
-                        Eletronic Engineering
+                        <span class="i18nelement" data-i18n="courses.EE"></span>
                     </p>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                 <div class="description">
                     <p class="description-text">
                         Duarte Rodrigues <br>
-                        Eletronic Engineering
+                        <span class="i18nelement" data-i18n="courses.EE"></span>
                     </p>
                 </div>
             </div>
@@ -191,6 +191,9 @@
             <img src="../imgs/nav/logo_white.png" class="bottom-logo">
         </div>
     </div>
+
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="../javascript/i18next-config.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>

@@ -7,7 +7,10 @@
         "EB": "Engenharia Biológica",
         "EI": "Engenharia Informática",
         "EGI": "Engenharia e Gestão <br> Industrial",
-        "EEIC": "Engenharia Eletrónica <br> Industrial e Computadores"
+        "EEIC": "Engenharia Eletrónica <br> Industrial e Computadores",
+        "EE": "Engenharia Eletrónica",
+        "EF": "Engenharia Física",
+        "EMEC": "Engenharia Mecânica"
     },
 
     "home":
@@ -59,5 +62,22 @@
         "head": "Chefe de Setor",
         "acc": "Acumulador",
         "inv": "Inversor"
+    },
+
+    "esw":
+    {
+        "title": "A nossa função",
+        "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre sí.",
+        "team": "Equipa de ESW",
+        "head": "Chefe de Setor"
+    },
+
+    "dvrt":
+    {
+        "title": "A nossa função",
+        "text": "O setor de drivetrain foca-se em <span style='color:#084d6e'>passar a potência</span> do motor para as rodas. O seu objetivo é obter a transferência de potência mais eficiente possível para que o carro consiga alcançar a <span style='color:#084d6e'>aceleração máxima</span> e <span style='color:#084d6e'>manter a velocidade</span> durante a distância da corrida.",
+        "team": "Equipa de drivetrain",
+        "axels": "Semi-eixos",
+        "int": "Integração com <br> Powertrain"
     }
 }

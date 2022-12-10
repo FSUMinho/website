@@ -59,18 +59,3 @@
     transform: scale(1.05);
     cursor: pointer;
 }
-
-/* LANGUAGE SELECTOR */
-
-.language-selector {
-    font-family: 'Kanit';
-    background-color: white;
-    border-radius: 10px;
-    padding: 5px 10px;
-    transition: all .2s ease-in-out;
-    text-align: center;
-}
-
-.language-selector:hover {
-    cursor: pointer;
-}

@@ -7,7 +7,10 @@
         "EB": "Bilogical Engineering",
         "EI": "Software Engineering",
         "EGI": "Engineering & Industrial Management",
-        "EEIC": "Industrial Electronics & Computers Engineering"
+        "EEIC": "Industrial Electronics & Computers Engineering",
+        "EE": "Electronic Engineering",
+        "EF": "Physical Engineering",
+        "EMEC": "Mechanical Engineering"
     },
 
     "home":
@@ -59,5 +62,22 @@
         "head": "Sector Head",
         "acc": "Accumulator",
         "inv": "Inverter"
+    },
+
+    "esw":
+    {
+        "title": "Our role",
+        "text": "As the name suggests, the electronics & software sector handles all the <span style='color:#084d6e'>electronic components and software</span> that keep the car safe and running smooth. The sector makes sure all the major components of the car are <span style='color:#084d6e'>properly programmed</span> and <span style='color:#084d6e'>communicating</span> between each other.",
+        "team": "ESW team",
+        "head": "Sector Head"
+    },
+
+    "dvrt":
+    {
+        "title": "Our role",
+        "text": "The drivetrain sector focus on <span style='color:#084d6e'>delivering power</span> from the engine to the wheels. It aims to achieve the most efficient power transfer in order to secure <span style='color:#084d6e'>maximum acceleration</span> and <span style='color:#084d6e'>maintain speed</span> for the full race distance.",
+        "team": "Drivetrain team",
+        "axels": "Semi-axels",
+        "int": "Powertrain integration"
     }
 }
