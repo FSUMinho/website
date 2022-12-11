@@ -11,7 +11,7 @@ function getNumCourses()
 {
     var coursesElement = document.getElementById("courses");
 
-    fetch('lang/pt.json')
+    fetch('../lang/pt.json')
     .then(response => response.json())
     .then(data => {
         const courses = data.courses;
