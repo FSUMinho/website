@@ -19,6 +19,13 @@
         </a>
         
         <div class="nav-right">
+            <div class="language-selector">
+                <select disabled="true" id="langSelector" name="lang">
+                    <option value="pt">PT</optio>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+            
             <a class="insta-logo-link" href="https://www.instagram.com/fsuminho/">
                 <img src="../imgs/nav/insta.png" class="logo">
             </a>
@@ -27,9 +34,7 @@
                 <img src="../imgs/nav/linkedin.png" class="logo">
             </a>
             
-            <a class="contact-button" href="../html/contact.html">
-                Contact
-            </a>
+            <a class="contact-button i18nelement" href="../html/contact.html" data-i18n="nav.contact"></a>
         </div>
     </nav>
 
@@ -45,9 +50,9 @@
     </div>
 
     <div class="introduction-container" data-aos="fade-up">
-        <h1 class="introduction-title">Our role</h1>
+        <h1 class="introduction-title i18nelement" data-i18n="body.title"></h1>
 
-        <p class="introduction-text text">
+        <p class="introduction-text text i18nelement" data-i18n="body.text">
             The body sector will take care of everything related to <span style="color:#084d6e">bodywork, 
             aerodynamics, suspension and chassis</span>. It's up to us to deliver a strong and light
             structure that is both able to handle the abuse on track and to <span style="color:#084d6e">keep the 
@@ -58,14 +63,12 @@
     </div>
 
     <div class="team-container" data-aos="fade-up">
-        <h1 class="body-team-title">Body team</h1>
+        <h1 class="body-team-title i18nelement" data-i18n="body.team"></h1>
 
         <div class="grid">
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Sector Head
-                    </p>
+                    <p class="i18nelement" data-i18n="body.head"></p>
                 </div>
 
                 <div class="photo-container">
@@ -75,16 +78,14 @@
                 <div class="description">
                     <p class="description-text">
                         Gonçalo Oliveira <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Sector Direction
-                    </p>
+                    <p class="i18nelement" data-i18n="body.dir"></p>
                 </div>
 
                 <div class="photo-container">
@@ -94,16 +95,14 @@
                 <div class="description">
                     <p class="description-text">
                         Beatriz Fernandes <br>
-                        Materials Engineering
+                        <span class="i18nelement" data-i18n="courses.EM"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Sector Direction
-                    </p>
+                    <p class="i18nelement" data-i18n="body.dir"></p>
                 </div>
 
                 <div class="photo-container">
@@ -113,16 +112,14 @@
                 <div class="description">
                     <p class="description-text">
                         Gonçalo Rodrigues <br>
-                        Materials Engineering
+                        <span class="i18nelement" data-i18n="courses.EM"></span>
                     </p>
                 </div>
             </div>
 
            <div class="member">
                 <div class="team-role">
-                    <p>
-                        Uprights
-                    </p>
+                    <p>Uprights</p>
                 </div>
 
                 <div class="photo-container">
@@ -132,16 +129,14 @@
                 <div class="description">
                     <p class="description-text">
                         Pedro Reis <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
            </div>
 
            <div class="member">
                 <div class="team-role">
-                    <p>
-                        Supension
-                    </p>
+                    <p class="i18nelement" data-i18n="body.susp"></p>
                 </div>
 
                 <div class="photo-container">
@@ -151,16 +146,14 @@
                 <div class="description">
                     <p class="description-text">
                         Maria João Pinto <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
            </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Chassis
-                    </p>
+                    <p>Chassis</p>
                 </div>
 
                 <div class="photo-container">
@@ -170,16 +163,14 @@
                 <div class="description">
                     <p class="description-text">
                         Gonçalo Traila <br>
-                        Materials Engineering
+                        <span class="i18nelement" data-i18n="courses.EM"></span>
                     </p>
                 </div>
             </div>
 
            <div class="member">
                 <div class="team-role">
-                    <p>
-                        Chassis
-                    </p>
+                    <p>Chassis</p>
                 </div>
 
                 <div class="photo-container">
@@ -189,16 +180,14 @@
                 <div class="description">
                     <p class="description-text">
                         Jorge Velozo <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
            </div>
 
            <div class="member">
                 <div class="team-role">
-                    <p>
-                        Uprights
-                    </p>
+                    <p>Uprights</p>
                 </div>
 
                 <div class="photo-container">
@@ -208,16 +197,14 @@
                 <div class="description">
                     <p class="description-text">
                         Diogo Miranda <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
            </div>
 
            <div class="member">
                 <div class="team-role">
-                    <p>
-                        Chassis                    
-                    </p>
+                    <p>Chassis</p>
                 </div>
 
                 <div class="photo-container">
@@ -227,16 +214,14 @@
                 <div class="description">
                     <p class="description-text">
                         Nuno Costa <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
            </div>
 
            <div class="member">
                 <div class="team-role">
-                    <p>
-                        Chassis                    
-                    </p>
+                    <p>Chassis</p>
                 </div>
 
                 <div class="photo-container">
@@ -246,7 +231,7 @@
                 <div class="description">
                     <p class="description-text">
                         Eduardo Viera <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
            </div>
@@ -288,6 +273,9 @@
             <img src="../imgs/nav/logo_white.png" class="bottom-logo">
         </div>
     </div>
+
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="../javascript/i18next-config.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>

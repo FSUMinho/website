@@ -19,6 +19,13 @@
         </a>
         
         <div class="nav-right">
+            <div class="language-selector">
+                <select disabled="true" id="langSelector" name="lang">
+                    <option value="pt">PT</optio>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+            
             <a class="insta-logo-link" href="https://www.instagram.com/fsuminho/">
                 <img src="../imgs/nav/insta.png" class="logo">
             </a>
@@ -27,9 +34,7 @@
                 <img src="../imgs/nav/linkedin.png" class="logo">
             </a>
             
-            <a class="contact-button" href="../html/contact.html">
-                Contact
-            </a>
+            <a class="contact-button i18nelement" href="../html/contact.html" data-i18n="nav.contact"></a>
         </div>
     </nav>
 
@@ -45,43 +50,18 @@
     </div>
 
     <div class="introduction-container" data-aos="fade-up">
-        <h1 class="introduction-title">Our role</h1>
+        <h1 class="introduction-title i18nelement" data-i18n="dvrt.title"></h1>
 
-        <p class="introduction-text text">
-            The drivetrain sector focus on <span style="color:#084d6e">delivering power</span> from the engine to the wheels.
-            We aim to achieve the most efficient power transfer in order to secure <span style="color:#084d6e">maximum
-            acceleration</span> and <span style="color:#084d6e">maintain speed</span> for the full race distance.
-        </p>
+        <p class="introduction-text text i18nelement" data-i18n="dvrt.text"></p>
     </div>
 
     <div class="team-container" data-aos="fade-up">
-        <h1 class="drive-team-title">DriveTrain team</h1>
+        <h1 class="drive-team-title i18nelement" data-i18n="dvrt.team"></h1>
 
         <div class="grid">
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Semi-axels
-                    </p>
-                </div>
-
-                <div class="photo-container">
-                    <img src="../imgs/generic.jpg" class="photo">
-                </div>
-
-                <div class="description">
-                    <p class="description-text">
-                        David Alves <br>
-                        Mechanical Engineering
-                    </p>
-                </div>
-            </div>
-
-            <div class="member">
-                <div class="team-role">
-                    <p>
-                        Cargo
-                    </p>
+                    <p class="i18nelement" data-i18n="dvrt.head"></p>
                 </div>
     
                 <div class="photo-container">
@@ -91,17 +71,31 @@
                 <div class="description">
                     <p class="description-text">
                         Cláudio Pereira <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="member">
+                <div class="team-role">
+                    <p class="i18nelement" data-i18n="dvrt.axels"></p>
+                </div>
+
+                <div class="photo-container">
+                    <img src="../imgs/generic.jpg" class="photo">
+                </div>
+
+                <div class="description">
+                    <p class="description-text">
+                        David Alves <br>
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="team-role">
-                    <p>
-                        Integration with <br>
-                        powertrain
-                    </p>
+                    <p class="i18nelement" data-i18n="dvrt.int"></p>
                 </div>
     
                 <div class="photo-container">
@@ -111,7 +105,7 @@
                 <div class="description">
                     <p class="description-text">
                         Francisco Novais <br>
-                        Mechanical Engineering
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
             </div>
@@ -154,13 +148,14 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="../javascript/i18next-config.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@stylify/stylify@latest/dist/stylify.min.js"></script>
     <script src="../javascript/stylify-config.js"></script>
-    
-    <script src="javascript/scripts.js"></script>
 
 </body>
 </html>

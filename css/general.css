@@ -36,6 +36,15 @@ p {
   margin-right: 15vw;
 }
 
+select {
+  border-style: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
 /* SCROLL */
 
 *::-webkit-scrollbar {

@@ -1,0 +1,108 @@
+{
+    "nav":
+    {
+        "contact": "Contacto"
+    },
+
+    "courses":
+    {
+        "EGSI": "Engenharia e Gestão de <br> Sistemas de Informação",
+        "EQB": "Engenharia Quimica <br> e Biológica",
+        "EM": "Engenharia de Materiais",
+        "EB": "Engenharia Biológica",
+        "EI": "Engenharia Informática",
+        "EGI": "Engenharia e Gestão <br> Industrial",
+        "EEIC": "Engenharia Eletrónica <br> Industrial e Computadores",
+        "EE": "Engenharia Eletrónica",
+        "EF": "Engenharia Física",
+        "EMEC": "Engenharia Mecânica"
+    },
+
+    "home":
+    {
+        "about-us": "Sobre nós",
+        "about-us-text": "Somos um grupo de estudantes de engenharia da Universidade do Minho com base na cidade de Guimarães (Campus de Azurém) com uma paixão pelo desporto motorizado. Como a mais recente adição à Formula Student em Portugal, pretendemos entregar um projeto com bases sólidas e, a curto prazo, tornarmo-nos uma referència no norte do país.",
+
+        "why-fs": "Porquê a Formula Student",
+        "why-fs-text": "A Formuala Student oferece aos estudantes a chance de experênciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, nos ajudam a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, total cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
+
+        "sectors-title": "Os nosssos setores",
+
+        "statistics-title": "Estatísticas",
+        "statistics-members": "membros",
+        "statistics-years": "anos",
+        "statistics-courses": "cursos",
+        "statistics-cars": "carro",
+
+        "competition-title": "A competição",
+        "competition-text": "A Formula Student está devidida em 3 classes. A <span style='color: #084d6e'>Classe 2</span> requer a apresentaçãp de um projeto e um protótipo. A <span style='color: #084d6e'>Classe 1</span> consiste na apresentação dinâmica de um carro equipada com um motor a combustão. A <span style='color: #084d6e'>Classe 1A</span> desafia as equipas a construir um carro movido por energias alternativas.",
+
+        "planet-title": "Compromisso com o planeta",
+        "planet-text": "Comprometemo-nos a contribuir para um <span style='color: #084d6e'>futuro mais verde</span>. É por essa razão que equipamos o nosso carro com um motor elétrico. A equipa irá também promover uma <span style='color: #084d6e'>economia circular</span>, recorrendo à reutilização de componentes eletrónicos de indústrias portuguesas de maneira a <span style='color: #084d6e'>reduzir o e-waste</span>. Pelo menos 25% do 'lixo' eletrónico que chega aos centros de reciclagem, tem uma alta taxa de reutilização. Estes materiais são fundamentais para a <span style='color: #084d6e'>redução da nossa pegada de carbono</span>.",
+
+        "roadmap1": "<span Class='month'>fevereiro '23</span> <br> <p class='goals'>Apresentar um protótipo de <br> um carro elétrico para <br> competir na classe 2</p>",
+        "roadmap2": "<span Class='month'>março '23</span> <br> <p class='goals'>Ter parcerias estabelecidas <br> com empresas</p>",
+        "roadmap3": "<span Class='month'>abril '23</span> <br> <p class='goals'>Adquirir materiais <br> para construir o carro</p>",
+        "roadmap4": "<span Class='month'>junho '23</span> <br> <p class='goals'>Participar em <br> competições</p>",
+
+        "inst-parteners": "Parceiros Institucionais",
+        "sponsors": "Patrocinadores & Parceiros"
+    },
+
+    "mnt":
+    {
+        "title": "A nossa função",
+        "text": "A equipa de management e responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
+        "team": "Equipa de management",
+        "leader": "Lider da Equipa",
+        "head": "Chefe de Setor",
+        "contacts": "Contactos Externos",
+        "team-mnt": "Gestão da Equipa",
+        "coms": "Comunicações"  
+    },
+
+    "pwrt": 
+    {
+        "title": "A nossa função",
+        "text": "O setor de powertrain é responsável pelo desenvolvimento do <span style='color:#084d6e'>motor elétrico</span>. Cabe a este setor a este setor entregar uma unidade motriz <span style='color:#084d6e'>potente e durável</span>. <span style='color:#084d6e'>Eficiência</span> é um dos pontos mais importantes para powertrain. O motor deve ser programado de forma a que consuma sempre a quantidade certa de energia.",
+        "team": "Equipa de powertrain",
+        "head": "Chefe de Setor",
+        "acc": "Acumulador",
+        "inv": "Inversor"
+    },
+
+    "esw":
+    {
+        "title": "A nossa função",
+        "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre sí.",
+        "team": "Equipa de ESW",
+        "head": "Chefe de Setor"
+    },
+
+    "dvrt":
+    {
+        "title": "A nossa função",
+        "text": "O setor de drivetrain foca-se em <span style='color:#084d6e'>passar a potência</span> do motor para as rodas. O seu objetivo é obter a transferência de potência mais eficiente possível para que o carro consiga alcançar a <span style='color:#084d6e'>aceleração máxima</span> e <span style='color:#084d6e'>manter a velocidade</span> durante a distância da corrida.",
+        "team": "Equipa de drivetrain",
+        "head": "Chefe de Setor",
+        "axels": "Semi-eixos",
+        "int": "Integração com <br> Powertrain"
+    },
+
+    "body":
+    {
+        "title": "A nossa função",
+        "text": "O setor de body trabalha com tudo relacionado com o <span style='color:#084d6e'>bodywork, aerodinâmica, suspensão e chassis</span> do carro. Os objetivos do setor são entregar uma estrutura leve e forte capaz de aguentar o abuso na pista e capaz de <span style='color:#084d6e'>proteger o piloto</span> em caso de impacto, produzir componentes aerodinâmicos que mantenham o carro <span style='color:#084d6e'>estável a alta velocidade</span> e desenvolver uma suspensão capaz de <span style='color:#084d6e'>manter as rodas em contacto com o piso</span> para que o carro seja o mais estável possível.",
+        "team": "Equipa de body",
+        "head": "Chefe de Setor",
+        "dir": "Direção do Setor",
+        "susp": "Suspensão"
+    },
+
+    "sponsors":
+    {
+        "title": "Patrocinadores & Parceiros",
+        "wwu": "Trabalhe Connosco",
+        "parteners": "Parceiros"
+    }
+}

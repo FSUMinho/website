@@ -1,0 +1,108 @@
+{
+    "nav":
+    {
+        "contact": "Contact"
+    },
+
+    "courses":
+    {
+        "EGSI": "Information Systems <br> Engineering & Management",
+        "EQB": "Chemical & Biological Engineering",
+        "EM": "Materials Engineering",
+        "EB": "Bilogical Engineering",
+        "EI": "Software Engineering",
+        "EGI": "Engineering & Industrial Management",
+        "EEIC": "Industrial Electronics & Computers Engineering",
+        "EE": "Electronic Engineering",
+        "EF": "Physical Engineering",
+        "EMEC": "Mechanical Engineering"
+    },
+
+    "home":
+    {
+        "about-us": "About us",
+        "about-us-text": "We are a group of engineering students from the University of Minho based in the city of Guimarães (Azurém Campus) with a pation for motorsport. As the latest addition to the Formula Student scene in Portugal, we aim to deliver a project with a solid foundation and, in the short term, become a reference in the north of the country.",
+
+        "why-fs": "Why Formula Student",
+        "why-fs-text": "Formula Student gives us students the chance to get a taste of the world of engineering. Building our car requires us to <span style='color:#084d6e'>apply all the knowledge</span> we have about our areas of expertise and <span style='color:#084d6e'>work with parteners</span> that besides supporting our project, can help us improve our methods. This project also aims to <span style='color:#084d6e'>develop soft skills</span> like menagement, communication and team work, all crucial in a <span style='color:#084d6e'>top tier engineer</span>.",
+
+        "sectors-title": "Our sectors",
+
+        "statistics-title": "Statistics",
+        "statistics-members": "members",
+        "statistics-years": "years",
+        "statistics-courses": "courses",
+        "statistics-cars": "car",
+
+        "competition-title": "The competition",
+        "competition-text": "Formula Student is divided in 3 classes. <span style='color: #084d6e'>Class 2</span> requires the presentation of a project and a prototype. <span style='color: #084d6e'>Class 1</span> will require a dynamic presentation of a car equiped with an internal combustion engine. <span style='color: #084d6e'>Class 1A</span> challenges teams to build a car moved by an alternative source of energy.",
+
+        "planet-title": "Commitment with the planet",
+        "planet-text": "We are commited to a <span style='color:#084d6e'>greener future</span>. That's why we chose to equip our car with an electric power unit. The team will also support a <span style='color:#084d6e'>circular economy</span>, promoting the reuse of electrical components from portuguese industries in order to <span style='color:#084d6e'>reduce e-waste</span>. At least 25% of electronic 'trash' that reaches recycling centers, still is higly reusable. This materials are fundamental to <span style='color:#084d6e'>reduce our carbon footprint</span>.",
+
+        "roadmap1": "<span Class='month'>february '23</span> <br> <p class='goals'>Present a prototype of an <br> electric car to compete in <br> class 2.</p>",
+        "roadmap2": "<span Class='month'>march '23</span> <br> <p class='goals'>Have established <br> partenerships with <br> companies.</p>",
+        "roadmap3": "<span Class='month'>april '23</span> <br> <p class='goals'>Gather suplies to <br> assemble the car.</p>",
+        "roadmap4": "<span Class='month'>june '23</span> <br> <p class='goals'>Participate in <br> competitions.</p>",
+
+        "inst-parteners": "Intitutional Parteners",
+        "sponsors": "Sponsors & Parteners"
+    },
+
+    "mnt": 
+    {
+        "title": "Our role",
+        "text": "The management sector handles the <span style='color:#084d6e'>business</span> side of the team. It is its responsibility to gather funds for the project via <span style='color:#084d6e'>partnerships</span> and also for its <span style='color:#084d6e'>marketing</span>. Management also has to fulfil the needs of the other departments. This includes ordering parts and tools or provide trainning sessions.",
+        "team": "Management team",
+        "leader": "Team Leader",
+        "head": "Sector Head",
+        "contacts": "External Contacts",
+        "team-mnt": "Team Management",
+        "coms": "Communications"
+    },
+
+    "pwrt": 
+    {
+        "title": "Our role",
+        "text": "The powertrain secton is responsible for the development of the <span style='color:#084d6e'>power unit</span>. It's the sector's duty to deliver a <span style='color:#084d6e'>reliable and powerful</span> electric motor.<span  style='color:#084d6e'> Efficiency</span> is also key in this sector. The power unit needs to be tuned in such a way that it is always consuming the right amount of energy.",
+        "team": "Powertrain team",
+        "head": "Sector Head",
+        "acc": "Accumulator",
+        "inv": "Inverter"
+    },
+
+    "esw":
+    {
+        "title": "Our role",
+        "text": "As the name suggests, the electronics & software sector handles all the <span style='color:#084d6e'>electronic components and software</span> that keep the car safe and running smooth. The sector makes sure all the major components of the car are <span style='color:#084d6e'>properly programmed</span> and <span style='color:#084d6e'>communicating</span> between each other.",
+        "team": "ESW team",
+        "head": "Sector Head"
+    },
+
+    "dvrt":
+    {
+        "title": "Our role",
+        "text": "The drivetrain sector focus on <span style='color:#084d6e'>delivering power</span> from the engine to the wheels. It aims to achieve the most efficient power transfer in order to secure <span style='color:#084d6e'>maximum acceleration</span> and <span style='color:#084d6e'>maintain speed</span> for the full race distance.",
+        "team": "Drivetrain team",
+        "head":"Sector Head",
+        "axels": "Semi-axels",
+        "int": "Powertrain integration"
+    },
+
+    "body":
+    {
+        "title": "Our role",
+        "text": "The body sector will take care of everything related to <span style='color:#084d6e'>bodywork, aerodynamics, suspension and chassis</span>. The sector's goals are to deliver a strong and light structure that is both able to handle the abuse on track and to <span style='color:#084d6e'>keep the driver safe</span> in case of impact, to produce aerodynamic compenents that keep the <span style='color:#084d6e'>car stable at high speeds</span> and to develop a suspension able to <span style='color:#084d6e'>keep the wheels in contact with the track</span> at all times.",
+        "team": "Body team",
+        "head":"Sector Head",
+        "dir": "Sector Direction",
+        "susp": "Suspension"
+    },
+
+    "sponsors":
+    {
+        "title": "Sponsors & Parteners",
+        "wwu": "Work With Us",
+        "parteners": "Parteners"
+    }
+}
