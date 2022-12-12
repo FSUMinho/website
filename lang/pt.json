@@ -35,7 +35,7 @@
         "statistics-cars": "carro",
 
         "competition-title": "A competição",
-        "competition-text": "A Formula Student está devidida em 3 classes. A <span style='color: #084d6e'>Classe 2</span> requer a apresentaçãp de um projeto e um protótipo. A <span style='color: #084d6e'>Classe 1</span> consiste na apresentação dinâmica de um carro equipada com um motor a combustão. A <span style='color: #084d6e'>Classe 1A</span> desafia as equipas a construir um carro movido por energias alternativas.",
+        "competition-text": "A Formula Student está devidida em 3 classes. A <span style='color: #084d6e'>Classe 2</span> requer a apresentação de um projeto e um protótipo. A <span style='color: #084d6e'>Classe 1</span> consiste na apresentação dinâmica de um carro equipada com um motor a combustão. A <span style='color: #084d6e'>Classe 1A</span> desafia as equipas a construir um carro movido por energias alternativas.",
 
         "planet-title": "Compromisso com o planeta",
         "planet-text": "Comprometemo-nos a contribuir para um <span style='color: #084d6e'>futuro mais verde</span>. É por essa razão que equipamos o nosso carro com um motor elétrico. A equipa irá também promover uma <span style='color: #084d6e'>economia circular</span>, recorrendo à reutilização de componentes eletrónicos de indústrias portuguesas de maneira a <span style='color: #084d6e'>reduzir o e-waste</span>. Pelo menos 25% do 'lixo' eletrónico que chega aos centros de reciclagem, tem uma alta taxa de reutilização. Estes materiais são fundamentais para a <span style='color: #084d6e'>redução da nossa pegada de carbono</span>.",
@@ -104,5 +104,31 @@
         "title": "Patrocinadores & Parceiros",
         "wwu": "Trabalhe Connosco",
         "parteners": "Parceiros"
+    },
+
+    "partners":
+    {
+        "title": "Parceiros Institucionais"
+    },
+
+    "form":
+    {
+        "title": "Contacte-nos",
+        "send": "Enviar"
+    },
+
+    "invest":
+    {
+        "title": "Trabalhe Connosco",
+        "why-title": "Porquê investir na FSUM",
+        "why-text": "Nós somos mais que um grupo de estudantes com uma paixão pelo desporto motorizado. A FSUM representa o primeiro passo na formação de enginheiros de topo. Os nossos memebros entrarão no mercado de trabalho com experiência e capacidades que os distinguirão da concorrência. Queremos oferecer aos estudantes a oportunidade de fazer parte de um grupo que valoriza o trabalho de todos e icentiva todos os membros a mostrarem o seu potencial. Investir no nosso projeto significa investir na próxima gereção de enginherios e garantir que estes acomulem o máximo de experioência possível para que no futuro possam fazer a diferença e contribuir para o desenvolvimento tecnológico.",
+
+        "how-title": "Como investir",
+        "monetary-title": "Suporte Monetário",
+        "monetary-text": "O desporto motorizado não é barato. As despesas começam a acumular no desenvolvimento do carro e alcançam um valor alto na época das competições. Suportar-nos financiamente ajuda-nos a gerir as despesas e a alcançar os objetivos.",
+        "materials-title": "Fornecer materiais",
+        "materials-text": "Para podermos construir o carro que projetamos, nacessotaremos de vários materiais. Fornecer materiais à equipa ajuda-nos a passar o carro do software de modelação para a pista.",
+        "knowledge-title": "Conhecimento",
+        "knowledge-text": "Apesar de nos conciderarmos bastante talentosos e experientes, conhecimento nunca é demais. Estamos sempre aberto para aprender com profissionais das nossas áreas de estudo."
     }
 }
