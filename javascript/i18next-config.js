@@ -10,7 +10,32 @@ function updateContent() {
   async function i18Loader() {
     const langs = ["pt", "en"];
     const jsons = await Promise.all(
-      langs.map((l) => fetch("/lang/" + l + ".json").then((r) => r.json()))
+      langs.map((l) => fetch("./lang/" + l + ".json").then((r) => r.json()))
+    );
+    const res = langs.reduce((acc, l, idx) => {
+      acc[l] = { translation: jsons[idx] };
+      return acc;
+    }, {});
+    await i18next.init({
+      lng: "pt",
+      debug: true,
+      resources: res
+    });
+    updateContent();
+    i18next.on("languageChanged", () => {
+      updateContent();
+    });
+    const langSelector = document.getElementById("langSelector");
+    langSelector.removeAttribute("disabled");
+    langSelector.addEventListener("change", (e) => {
+      i18next.changeLanguage(e.target.value);
+    });
+  }
+
+  async function i18Loader2() {
+    const langs = ["pt", "en"];
+    const jsons = await Promise.all(
+      langs.map((l) => fetch("../lang/" + l + ".json").then((r) => r.json()))
     );
     const res = langs.reduce((acc, l, idx) => {
       acc[l] = { translation: jsons[idx] };
@@ -33,3 +58,4 @@ function updateContent() {
   }
   
   i18Loader();
+  i18Loader2();
