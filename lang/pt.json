@@ -129,6 +129,21 @@
         "materials-title": "Fornecer materiais",
         "materials-text": "Para podermos construir o carro que projetamos, nacessotaremos de vários materiais. Fornecer materiais à equipa ajuda-nos a passar o carro do software de modelação para a pista.",
         "knowledge-title": "Conhecimento",
-        "knowledge-text": "Apesar de nos conciderarmos bastante talentosos e experientes, conhecimento nunca é demais. Estamos sempre aberto para aprender com profissionais das nossas áreas de estudo."
+        "knowledge-text": "Apesar de nos conciderarmos bastante talentosos e experientes, conhecimento nunca é demais. Estamos sempre aberto para aprender com profissionais das nossas áreas de estudo.",
+
+        "pack-title": "Pacotes de investimento",
+
+        "pack-partner": "Parceiros",
+        "pack-partner-text": "Parceiros beneficiarão da <span style=' color: #084d6e'>divulgação da sua marca</span> através de campanhas nas redes sociais e o seu logo estará presente no carro. Terão ainda um lugar no nosso portfólio de parceiros.",
+        "pack-partner-expetations": "É esperado que os nossos parceiros divulguem a nossa marca e nos ajudem a estabelecer contectos",
+
+        "pack-bronze-text": "Os patrocinadores Bronze terão um lugar no nosso portfólio de patrocinadores. O seu <span style=' color: #084d6e'>logo estará mais visível</span> no bodywork do carro e em peças de merchandising. Beneficios de niveis inferiores também se aplicam.",
+        "pack-bronze-expetations": "Patrocinio Bronze requer um investimento entre 1000€ e 2500€",
+
+        "pack-silver-text": "Os patrocinadores Silver terão <span style=' color: #084d6e'>estatuto VIP</span> em eventos organizados pela FSUM. O seu logo estará ainda mais visível no bodywork e marchandising em comparação com os logos Bronze. Receberão ainda um <span style='color: #084d6e'>relatório mensal</span> sobre o progresso do projeto. Beneficios de niveis inferiores também se aplicam.",
+        "pack-silver-expetations": "Patrocinio Silver requer um investimento entre 2500€ e 5000€",
+
+        "pack-gold-text": "Os patrocinadores Gold terão <span style=' color: #084d6e'>poder de voto</span> na tomdada de decisões. O seu logo terá o maior destaque no carro e no merchandising. Os patrocionadores Gold serão ainda mencionados em artigos de imprensa ou revistas científicas. Beneficios de niveis inferiores também se aplicam.",
+        "pack-gold-expetations": "Patrocinio Gold requer um investimento entre 5000€ e 10000€"
     }
 }

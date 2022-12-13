@@ -129,6 +129,21 @@
         "materials-title": "Supply materials",
         "materials-text": "In order to build the car that we are designing, we'll need to gather various materials. Supplying materials to the team helps us take the car from the modeling software to the race track.",
         "knowledge-title": "Knowledge",
-        "knowledge-text": "Even though we consider ourselves very skilled and talented, knowledge is never enough. We are always open to learn from actual profetionals from our areas of expertise."
+        "knowledge-text": "Even though we consider ourselves very skilled and talented, knowledge is never enough. We are always open to learn from actual profetionals from our areas of expertise.",
+
+        "pack-title": "Investment packages",
+
+        "pack-partner": "Partners",
+        "pack-partner-text": "Partners will benefit from <span style='color:#084d6e'>divulgation of their brands</span> via social media campaigns and their logos will be present in our car.",
+        "pack-partner-expetations": "We expect our partners to also divulgate our brand and help us establish useful contacts.",
+
+        "pack-bronze-text": "Bronze sponsors will have a spot in our sponsor portfolio. They will have their <span style='color:#084d6e'>logo present in the car</span> in more visible parts of the bodywork and merchandising items. Lower tier benefits are also included.",
+        "pack-bronze-expetations": "Bronze sponsorship requires an investment between 1000€ and 2500€",
+
+        "pack-silver-text": "Silver sponsors will have <span style='color:#084d6e'>VIP status in events</span> organized by FSUM. Their logo will also be present on the car and merchandising, but will have more presence than bronze logos. This tier will receive a <span style='color:#084d6e'>monthly report</span> containing everything done by the team. Lower tier benefits are also included.",
+        "pack-silver-expetations": "Silver sponsorship requires an investment between 2500€ and 5000€",
+
+        "pack-gold-text": "Gold sponsors will have voting power in <span style='color:#084d6e'>decision-making</span> sessions. Their logo presence will be bigger compared to silver sponsors. The team will mention their company in press articles or scientific magazines. Lower tier benefits are also included.",
+        "pack-gold-expetations": "Gold sponsorship requires an investment between 5000€ and 10000€"
     }
 }
