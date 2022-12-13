@@ -59,10 +59,11 @@
     text-align: center;
     color: white;
     background-color: #e52516;
-    height: 450px;
-    width: 500px;
+    min-height: 500px;
+    max-width: 500px;
     padding: 0px 20px;
     border-radius: 20px;
+    margin: 5px;
 }
 
 .method-title {

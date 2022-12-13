@@ -3,7 +3,7 @@
     background-color: #e52516;
     position: fixed;
     top: 0;
-    height: 40px;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,17 +22,12 @@
 
 .logo_white {
     height: auto;
-    width: 15%;
+    min-width: 15%;    
+    max-width: 20%;
     margin-left: 5%;
     cursor: pointer;
     margin-bottom: -6px;
     
-}
-
-@media (max-width: 1000px) {
-    .logo_white {
-        width: 20%;
-    }
 }
 
 .contact-button {
