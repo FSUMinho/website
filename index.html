@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="css/bottom.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
     <title>FSUMinho</title>
 </head>
 <body>
@@ -182,26 +184,18 @@
         <a class="sponsors-title i18nelement" data-i18n="home.sponsors" href="html/sponsors.html"></a>
     </div>
 
-    <div class="news-slider-container">
+    <div class="news-slider-container" data-aos="fade-up">
         <h1 class="news-slider-title">Latest news</h1>
 
-        <input type="checkbox">
+        <div class="autoplay">
+            <div class="news-card">Card 1</div>
 
-        <div class="news-slider-container">
-            <div class="news-card card1">
-                Card 1
-            </div>
+            <div class="news-card">Card 2</div>
 
-            <div class="news-card card2">
-                Card 2
-            </div>
+            <div class="news-card">Card 3</div>
 
-            <div class="news-card card3">
-                Card 3
-            </div>
+            <div class="news-card">Card 4</div>
         </div>
-
-        <input type="checkbox">
     </div>
 
     <div class="lower_grid bottom-container" data-aos="fade">
@@ -278,6 +272,9 @@
 
   i18Loader();
     </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>
