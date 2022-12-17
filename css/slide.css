@@ -88,3 +88,51 @@
     background: none;
     pointer-events: none;
   }
+
+  /* NEWS SLIDER */
+
+.news-slider-container {
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
+  }
+
+.news-card {
+  background-color: #e52516;
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  color: white;
+  position: absolute;
+  transition: all .2s ease-in-out;
+  text-align: center;
+  text-justify: center;
+}
+
+.card1 {
+  left: 0;
+}
+
+.card2 {
+  left: 100%;
+}
+
+.card3 {
+  left: 200%;
+}
+
+.input[type=checkbox]:checked ~ .card1 {
+  transform: translateX(-100%);
+}
+
+.input[type=checkbox]:checked ~ .card2 {
+  left: 0;
+}
+
+.input[type=checkbox]:checked ~ .card3 {
+  left: 100%;
+}

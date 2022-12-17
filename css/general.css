@@ -5,6 +5,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'kanit';
 }
 
 li {
@@ -13,11 +14,9 @@ li {
 
 a {
   all: unset;
-  font-family: 'Kanit';
 }
 
 h1 {
-  font-family: 'Kanit';
   font-style: italic;
   font-weight: 700;
   font-size: 70px;
@@ -25,7 +24,6 @@ h1 {
 }
 
 p {
-  font-family: 'Kanit';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -43,6 +41,12 @@ select {
   padding: 5px 10px;
   cursor: pointer;
   margin-right: 5px;
+}
+
+button {
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
 }
 
 /* SCROLL */
