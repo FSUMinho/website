@@ -1,3 +1,13 @@
+.loader {
+    background: url(imgs/loader.gif) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
 .introduction-container {
     display: flex;
     flex-direction: column;
@@ -179,6 +189,20 @@
 
 .competition-text {
     margin-top: -20px;
+}
+
+.car-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.model {
+    margin-top: -20px;
+    border-radius: 20px;
+    height: 500px;
+    width: 900px;
 }
 
 .green-container {

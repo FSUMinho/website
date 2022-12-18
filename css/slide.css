@@ -88,3 +88,37 @@
     background: none;
     pointer-events: none;
   }
+
+/* NEWS SLIDER */
+
+.news-slider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.autoplay {
+  width: 80%;
+  height: auto;
+  margin-top: -20px;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e52516;  
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.slick-slide {
+  margin: 20px;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: black;
+}

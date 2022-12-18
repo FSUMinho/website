@@ -8,3 +8,4 @@
 - [Stylify](https://github.com/stylify)
 - [AOS - Animate on scroll library](https://github.com/michalsnik/aos)
 - [i18next](https://github.com/i18next/i18next)
+- [slick](https://github.com/kenwheeler/slick/)

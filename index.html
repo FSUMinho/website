@@ -11,9 +11,13 @@
     <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="css/bottom.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
     <title>FSUMinho</title>
 </head>
 <body>
+    <div class="loader"></div>
+
     <nav class="nav">
         <a class="logo_white_link" href="index.html">
             <img src="imgs/nav/logo_white.png" class="logo_white">
@@ -123,6 +127,14 @@
         <p class="competition-text text i18nelement" data-i18n="home.competition-text"></p>
     </div>
 
+    <div class="car-container" data-aos="fade-up">
+        <h1>FSUM 23</h1>
+
+        <div class="model-container">         
+            <iframe class="model" src="https://3dwarehouse.sketchup.com/embed/e72f7d03-b448-4351-a97d-8dc84f6a77a3?token=n1npGYpnBLg=&binaryName=s21" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="580" height="326" allowfullscreen></iframe>  
+        </div>
+    </div>
+
     <div class="green-container" data-aos="fade-up">
         <h1 class="green-title i18nelement" data-i18n="home.planet-title"></h1>
 
@@ -172,6 +184,20 @@
 
     <div class="sponsors-container" data-aos="fade-up">
         <a class="sponsors-title i18nelement" data-i18n="home.sponsors" href="html/sponsors.html"></a>
+    </div>
+
+    <div class="news-slider-container" data-aos="fade-up">
+        <h1 class="news-slider-title i18nelement" data-i18n="home.updates"></h1>
+
+        <div class="autoplay">
+            <div class="news-card">Card 1</div>
+
+            <div class="news-card">Card 2</div>
+
+            <div class="news-card">Card 3</div>
+
+            <div class="news-card">Card 4</div>
+        </div>
     </div>
 
     <div class="lower_grid bottom-container" data-aos="fade">
@@ -248,6 +274,9 @@
 
   i18Loader();
     </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init(); </script>
