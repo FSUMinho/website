@@ -118,3 +118,7 @@
 .slick-slide {
   margin: 20px;
 }
+
+.slick-prev:before, .slick-next:before{
+  color: black;
+}

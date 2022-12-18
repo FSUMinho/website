@@ -1,3 +1,13 @@
+.loader {
+    background: url(imgs/loader.gif) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
 .introduction-container {
     display: flex;
     flex-direction: column;
@@ -191,9 +201,8 @@
 .model {
     margin-top: -20px;
     border-radius: 20px;
-    max-height: 500px;
-    max-width: 900px;
-    margin: 5px;
+    height: 500px;
+    width: 900px;
 }
 
 .green-container {
