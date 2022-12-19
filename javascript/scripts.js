@@ -19,15 +19,20 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
-    responsive: [{
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
+    arrows: true,
+    pauseOnHover: true,
+    responsive: 
+    [
+      {
+      breakpoint: 1400,
+      settings: { slidesToShow: 2 }
+      },
+
+      {
+      breakpoint: 500,
+      settings: { slidesToShow: 1 }
       }
-    }]  
+    ]  
   });
 }); 
 
