@@ -103,19 +103,15 @@
   width: 80%;
   height: auto;
   margin-top: -20px;
-}
-
-.news-card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .news-card {
   height: auto;
-  width: 100%;
+  width: 70%;
   border-radius: 20px;
 }
 
@@ -129,11 +125,11 @@
 }
 
 .slick-next { 
-  right: -30px !important;
+  right: 0 !important;
 }
 
 .slick-prev { 
-  left: -50px !important; 
+  left: 0 !important; 
 }
 
 .slick-arrow { 
