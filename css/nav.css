@@ -3,7 +3,7 @@
     background-color: #e52516;
     position: fixed;
     top: 0;
-    height: auto;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
