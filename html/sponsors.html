@@ -13,30 +13,50 @@
     <title>FSUMinho</title>
 </head>
 <body>
-    <nav class="nav">
-        <a class="logo_white_link" href="../index.html">
-            <img src="../imgs/nav/logo_white.png" class="logo_white">
-        </a>
-        
-        <div class="nav-right">
-            <div class="language-selector">
-                <select disabled="true" id="langSelector" name="lang">
-                    <option value="pt">PT</optio>
-                    <option value="en">EN</option>
-                </select>
-            </div>
-            
-            <a class="insta-logo-link" href="https://www.instagram.com/fsuminho/">
-                <img src="../imgs/nav/insta.png" class="logo">
-            </a>
-    
-            <a class="linkedin-logo-link" href="https://pt.linkedin.com/company/fsuminho">
-                <img src="../imgs/nav/linkedin.png" class="logo">
-            </a>
-            
-            <a class="contact-button i18nelement" href="../html/contact.html" data-i18n="nav.contact"></a>
+    <header>
+        <div class="container"> 
+           <nav class="navbar">
+              <a href="../index.html" class="nav-branding">
+                <img src="../imgs/nav/logo_white.png" class="logo-white">
+              </a>
+
+              <ul class="nav-menu">
+                <li class="nav-item">
+                    <div class="language-selector">
+                        <select disabled="true" id="langSelector" name="lang">
+                            <option value="pt">PT</optio>
+                            <option value="en">EN</option>
+                        </select>
+                    </div>
+                </li>
+
+                 <li class="nav-item">
+                    <a href="https://www.instagram.com/fsuminho/" class="nav-link">
+                        <img src="../imgs/nav/insta.png" class="social-logo">
+                    </a>
+                 </li>
+
+                 <li class="nav-item">
+                    <a href="https://pt.linkedin.com/company/fsuminho" class="nav-link">
+                        <img src="../imgs/nav/linkedin.png" class="social-logo">
+                    </a>
+                 </li>
+
+                 <li class="nav-item">
+                    <a href="../html/contact.html">
+                        <p class="i18nelement contact" data-i18n="nav.contact"></p>
+                    </a>
+                 </li>
+              </ul>
+
+              <div class="hamburger">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+              </div>
+           </nav>
         </div>
-    </nav>
+    </header>
 
     <div class="title-container" data-aos="fade">
         <h1 class="i18nelement" data-i18n="sponsors.title"></h1>
