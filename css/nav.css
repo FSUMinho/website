@@ -1,5 +1,8 @@
 header {
+    width: 100%;
     background-color: #e52526;
+    position: fixed;
+    z-index: 9999999;
 }
 
 .navbar {
@@ -9,13 +12,18 @@ header {
     align-items: center;
 }
 
-.logo-white {
+.nav-branding {
+    margin: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-left: 5%;
-    height: auto;
-    width: 20%;    
+}
+
+.logo-white {
+    height: 45px;
+    width: auto;    
     cursor: pointer;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .nav-menu {
@@ -24,12 +32,6 @@ header {
     align-items: center;
     margin-right: 5%;
     gap: 5px;
-}
-
-.nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hamburger {
@@ -48,7 +50,7 @@ header {
     background-color: white;
 }
   
-  @media (max-width:1024px) {
+@media (max-width:1024px) {
     .hamburger {
       display: block;
     }
@@ -67,8 +69,7 @@ header {
 
    .nav-menu {
       position: fixed;
-      top: 48px;
-      left: -200%;
+      top: -200%;
       gap: 0;
       flex-direction: column;
       background-color: #e52526;
@@ -79,11 +80,15 @@ header {
     }
 
    .nav-item {
-      margin: 16px 0;
+      margin: 10px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
 
    .nav-menu.active {
       left: 0;
+      top: 50px;
     }
 }
 
@@ -101,8 +106,9 @@ header {
 .social-logo {
     transition: all .2s ease-in-out;
     cursor: pointer;
-    margin-top: 0;
-    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .contact:hover {
