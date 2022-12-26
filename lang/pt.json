@@ -24,7 +24,7 @@
         "about-us-text": "Somos um grupo de estudantes de engenharia da Universidade do Minho com base na cidade de Guimarães (Campus de Azurém) com uma paixão pelo desporto motorizado. Como a mais recente adição à Formula Student em Portugal, pretendemos entregar um projeto com bases sólidas e, a curto prazo, tornarmo-nos uma referència no norte do país.",
 
         "why-fs": "Porquê a Formula Student",
-        "why-fs-text": "A Formuala Student oferece aos estudantes a chance de experênciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, nos ajudam a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, total cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
+        "why-fs-text": "A Formuala Student oferece aos estudantes a chance de experênciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, nos ajudam a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, todas cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
 
         "sectors-title": "Os nosssos setores",
 
@@ -53,7 +53,7 @@
 
     "mnt":
     {
-        "title": "A nossa função",
+        "title": "Função do setor",
         "text": "A equipa de management e responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
         "team": "Equipa de management",
         "leader": "Lider da Equipa",
@@ -65,7 +65,7 @@
 
     "pwrt": 
     {
-        "title": "A nossa função",
+        "title": "Função do setor",
         "text": "O setor de powertrain é responsável pelo desenvolvimento do <span style='color:#084d6e'>motor elétrico</span>. Cabe a este setor a este setor entregar uma unidade motriz <span style='color:#084d6e'>potente e durável</span>. <span style='color:#084d6e'>Eficiência</span> é um dos pontos mais importantes para powertrain. O motor deve ser programado de forma a que consuma sempre a quantidade certa de energia.",
         "team": "Equipa de powertrain",
         "head": "Chefe de Setor",
@@ -75,7 +75,7 @@
 
     "esw":
     {
-        "title": "A nossa função",
+        "title": "Função do setor",
         "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre sí.",
         "team": "Equipa de ESW",
         "head": "Chefe de Setor"
@@ -83,7 +83,7 @@
 
     "dvrt":
     {
-        "title": "A nossa função",
+        "title": "Função do setor",
         "text": "O setor de drivetrain foca-se em <span style='color:#084d6e'>passar a potência</span> do motor para as rodas. O seu objetivo é obter a transferência de potência mais eficiente possível para que o carro consiga alcançar a <span style='color:#084d6e'>aceleração máxima</span> e <span style='color:#084d6e'>manter a velocidade</span> durante a distância da corrida.",
         "team": "Equipa de drivetrain",
         "head": "Chefe de Setor",
@@ -93,7 +93,7 @@
 
     "body":
     {
-        "title": "A nossa função",
+        "title": "Função do setor",
         "text": "O setor de body trabalha com tudo relacionado com o <span style='color:#084d6e'>bodywork, aerodinâmica, suspensão e chassis</span> do carro. Os objetivos do setor são entregar uma estrutura leve e forte capaz de aguentar o abuso na pista e capaz de <span style='color:#084d6e'>proteger o piloto</span> em caso de impacto, produzir componentes aerodinâmicos que mantenham o carro <span style='color:#084d6e'>estável a alta velocidade</span> e desenvolver uma suspensão capaz de <span style='color:#084d6e'>manter as rodas em contacto com o piso</span> para que o carro seja o mais estável possível.",
         "team": "Equipa de body",
         "head": "Chefe de Setor",

@@ -53,7 +53,7 @@
 
     "mnt": 
     {
-        "title": "Our role",
+        "title": "Sector's role",
         "text": "The management sector handles the <span style='color:#084d6e'>business</span> side of the team. It is its responsibility to gather funds for the project via <span style='color:#084d6e'>partnerships</span> and also for its <span style='color:#084d6e'>marketing</span>. Management also has to fulfil the needs of the other departments. This includes ordering parts and tools or provide trainning sessions.",
         "team": "Management team",
         "leader": "Team Leader",
@@ -65,7 +65,7 @@
 
     "pwrt": 
     {
-        "title": "Our role",
+        "title": "Sector's role",
         "text": "The powertrain secton is responsible for the development of the <span style='color:#084d6e'>power unit</span>. It's the sector's duty to deliver a <span style='color:#084d6e'>reliable and powerful</span> electric motor.<span  style='color:#084d6e'> Efficiency</span> is also key in this sector. The power unit needs to be tuned in such a way that it is always consuming the right amount of energy.",
         "team": "Powertrain team",
         "head": "Sector Head",
@@ -75,7 +75,7 @@
 
     "esw":
     {
-        "title": "Our role",
+        "title": "Sector's role",
         "text": "As the name suggests, the electronics & software sector handles all the <span style='color:#084d6e'>electronic components and software</span> that keep the car safe and running smooth. The sector makes sure all the major components of the car are <span style='color:#084d6e'>properly programmed</span> and <span style='color:#084d6e'>communicating</span> between each other.",
         "team": "ESW team",
         "head": "Sector Head"
@@ -83,7 +83,7 @@
 
     "dvrt":
     {
-        "title": "Our role",
+        "title": "Sector's role",
         "text": "The drivetrain sector focus on <span style='color:#084d6e'>delivering power</span> from the engine to the wheels. It aims to achieve the most efficient power transfer in order to secure <span style='color:#084d6e'>maximum acceleration</span> and <span style='color:#084d6e'>maintain speed</span> for the full race distance.",
         "team": "Drivetrain team",
         "head":"Sector Head",
@@ -93,7 +93,7 @@
 
     "body":
     {
-        "title": "Our role",
+        "title": "Sector's role",
         "text": "The body sector will take care of everything related to <span style='color:#084d6e'>bodywork, aerodynamics, suspension and chassis</span>. The sector's goals are to deliver a strong and light structure that is both able to handle the abuse on track and to <span style='color:#084d6e'>keep the driver safe</span> in case of impact, to produce aerodynamic compenents that keep the <span style='color:#084d6e'>car stable at high speeds</span> and to develop a suspension able to <span style='color:#084d6e'>keep the wheels in contact with the track</span> at all times.",
         "team": "Body team",
         "head":"Sector Head",
