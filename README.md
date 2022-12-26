@@ -1,7 +1,7 @@
-![Logo_red](https://github.com/Duarte0903/fsuminho/blob/main/imgs/logo_red.png)
+![Logo_red](https://github.com/FSUMinho/website/blob/main/imgs/logo_red.png)
 <br>
 ## Website for FSUMinho Formula Student Team
-[Link for website](https://duarte0903.github.io/fsuminho/)
+[Link for website](https://FSUMinho.github.io/website/)
 <br>
 <br>
 **Open source projects used:** <br>
