@@ -35,7 +35,11 @@
         "statistics-cars": "car",
 
         "competition-title": "The competition",
-        "competition-text": "Formula Student is divided in 3 classes. <span style='color: #084d6e'>Class 2</span> requires the presentation of a project and a prototype. <span style='color: #084d6e'>Class 1</span> will require a dynamic presentation of a car equiped with an internal combustion engine. <span style='color: #084d6e'>Class 1A</span> challenges teams to build a car moved by an alternative source of energy.",
+        "competition-text1": "Formula Student is divided in 3 classes:",
+        "competition-class2": "<span style='color: #084d6e'>Class 2</span> <br> requires the presentation of a project and a prototype",
+        "competition-class1": "<span style='color: #084d6e'>Class 1</span> <br> Will require a dynamic presentation of a car equiped with an internal combustion engine",
+        "competition-class1a": "<span style='color: #084d6e'>Class 1A</span> <br> Challenges teams to build a car moved by an alternative source of energy",
+        "competition-events": "The competition is divided into a series of <span style='color: #084d6e'>static and dynamic events</span>. <br> The static events consist of the presentation of the team's business plan, analysis of the costs associated with the team and the assembly of the car and analysis of the car's design from a technical point of view. The dynamic tests aim to test the behavior of the car on the track. They include a skidpad, acceleration test, autocross, endurance test and efficiency test. In these events, points will be awarded to every team's overall score, which will later determine the winning team in each class",
 
         "planet-title": "Commitment with the planet",
         "planet-text": "We are commited to a <span style='color:#084d6e'>greener future</span>. That's why we chose to equip our car with an electric power unit. The team will also support a <span style='color:#084d6e'>circular economy</span>, promoting the reuse of electrical components from portuguese industries in order to <span style='color:#084d6e'>reduce e-waste</span>. At least 25% of electronic 'trash' that reaches recycling centers, still is higly reusable. This materials are fundamental to <span style='color:#084d6e'>reduce our carbon footprint</span>.",
@@ -55,7 +59,7 @@
     {
         "title": "Sector's role",
         "text": "The management sector handles the <span style='color:#084d6e'>business</span> side of the team. It is its responsibility to gather funds for the project via <span style='color:#084d6e'>partnerships</span> and also for its <span style='color:#084d6e'>marketing</span>. Management also has to fulfil the needs of the other departments. This includes ordering parts and tools or provide trainning sessions.",
-        "team": "Management team",
+        "team": "Sector Direction",
         "leader": "Team Leader",
         "head": "Sector Head",
         "contacts": "External Contacts",
@@ -67,7 +71,7 @@
     {
         "title": "Sector's role",
         "text": "The powertrain secton is responsible for the development of the <span style='color:#084d6e'>power unit</span>. It's the sector's duty to deliver a <span style='color:#084d6e'>reliable and powerful</span> electric motor.<span  style='color:#084d6e'> Efficiency</span> is also key in this sector. The power unit needs to be tuned in such a way that it is always consuming the right amount of energy.",
-        "team": "Powertrain team",
+        "team": "Sector Direction",
         "head": "Sector Head",
         "acc": "Accumulator",
         "inv": "Inverter"

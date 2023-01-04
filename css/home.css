@@ -191,6 +191,26 @@
     margin-top: -20px;
 }
 
+.class-card-container {
+    gap: 20px 20px;
+}
+
+.class-card {
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #e52516;
+    width: 300px;
+    height: 200px;
+}
+
+.class-text {
+    margin: 10px;
+}
+
 .car-container {
     display: flex;
     flex-direction: column;

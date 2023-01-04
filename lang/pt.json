@@ -35,7 +35,11 @@
         "statistics-cars": "carro",
 
         "competition-title": "A competição",
-        "competition-text": "A Formula Student está devidida em 3 classes. A <span style='color: #084d6e'>Classe 2</span> requer a apresentação de um projeto e um protótipo. A <span style='color: #084d6e'>Classe 1</span> consiste na apresentação dinâmica de um carro equipada com um motor a combustão. A <span style='color: #084d6e'>Classe 1A</span> desafia as equipas a construir um carro movido por energias alternativas.",
+        "competition-text1": "A Formula Student está devidida em 3 classes:",
+        "competition-class2": "<span style='color: #084d6e'>Classe 2</span> <br> Requer a apresentação de um projeto e um protótipo",
+        "competition-class1": "<span style='color: #084d6e'>Classe 1</span> <br> Consiste na apresentação dinâmica de um carro equipada com um motor a combustão",
+        "competition-class1a": "<span style='color: #084d6e'>Classe 1A</span> <br> Desafia as equipas a construir um carro movido por energias alternativas",
+        "competition-events": "A competição está dividida numa série de <span style='color: #084d6e'>provas estáticas e dinâmicas</span>. <br> As provas estátticas concistem na apresentação do plano de negócio da equipa, análise dos custos associdados à equipa e à montagem do carro e análise do design do carro de um ponto de vista técnico. As provas dinâmicas têm como objetivo testar o comportamento do carro em pista. Incluem um skidpad, prova de aceleração, autocross, prova de resistência e prova de eficiência. Nestas provas serão atribuidos pontos ao overall score das equipas, que posteriormente irá determinar a equipa vencedora de cada classe.",
 
         "planet-title": "Compromisso com o planeta",
         "planet-text": "Comprometemo-nos a contribuir para um <span style='color: #084d6e'>futuro mais verde</span>. É por essa razão que equipamos o nosso carro com um motor elétrico. A equipa irá também promover uma <span style='color: #084d6e'>economia circular</span>, recorrendo à reutilização de componentes eletrónicos de indústrias portuguesas de maneira a <span style='color: #084d6e'>reduzir o e-waste</span>. Pelo menos 25% do 'lixo' eletrónico que chega aos centros de reciclagem, tem uma alta taxa de reutilização. Estes materiais são fundamentais para a <span style='color: #084d6e'>redução da nossa pegada de carbono</span>.",
@@ -55,7 +59,7 @@
     {
         "title": "Função do setor",
         "text": "A equipa de management e responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
-        "team": "Equipa de management",
+        "team": "Direção do Setor",
         "leader": "Lider da Equipa",
         "head": "Chefe de Setor",
         "contacts": "Contactos Externos",
@@ -67,7 +71,7 @@
     {
         "title": "Função do setor",
         "text": "O setor de powertrain é responsável pelo desenvolvimento do <span style='color:#084d6e'>motor elétrico</span>. Cabe a este setor a este setor entregar uma unidade motriz <span style='color:#084d6e'>potente e durável</span>. <span style='color:#084d6e'>Eficiência</span> é um dos pontos mais importantes para powertrain. O motor deve ser programado de forma a que consuma sempre a quantidade certa de energia.",
-        "team": "Equipa de powertrain",
+        "team": "Direção do Setor",
         "head": "Chefe de Setor",
         "acc": "Acumulador",
         "inv": "Inversor"
@@ -77,7 +81,7 @@
     {
         "title": "Função do setor",
         "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre sí.",
-        "team": "Equipa de ESW",
+        "team": "Direção do Setor",
         "head": "Chefe de Setor"
     },
 
@@ -85,7 +89,7 @@
     {
         "title": "Função do setor",
         "text": "O setor de drivetrain foca-se em <span style='color:#084d6e'>passar a potência</span> do motor para as rodas. O seu objetivo é obter a transferência de potência mais eficiente possível para que o carro consiga alcançar a <span style='color:#084d6e'>aceleração máxima</span> e <span style='color:#084d6e'>manter a velocidade</span> durante a distância da corrida.",
-        "team": "Equipa de drivetrain",
+        "team": "Direção do Setor",
         "head": "Chefe de Setor",
         "axels": "Semi-eixos",
         "int": "Integração com <br> Powertrain"
@@ -95,7 +99,7 @@
     {
         "title": "Função do setor",
         "text": "O setor de body trabalha com tudo relacionado com o <span style='color:#084d6e'>bodywork, aerodinâmica, suspensão e chassis</span> do carro. Os objetivos do setor são entregar uma estrutura leve e forte capaz de aguentar o abuso na pista e capaz de <span style='color:#084d6e'>proteger o piloto</span> em caso de impacto, produzir componentes aerodinâmicos que mantenham o carro <span style='color:#084d6e'>estável a alta velocidade</span> e desenvolver uma suspensão capaz de <span style='color:#084d6e'>manter as rodas em contacto com o piso</span> para que o carro seja o mais estável possível.",
-        "team": "Equipa de body",
+        "team": "Direção do Setor",
         "head": "Chefe de Setor",
         "dir": "Direção do Setor",
         "susp": "Suspensão"
