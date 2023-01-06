@@ -40,6 +40,7 @@
         "competition-class1": "<span style='color: #084d6e'>Class 1</span> <br> Will require a dynamic presentation of a car equiped with an internal combustion engine",
         "competition-class1a": "<span style='color: #084d6e'>Class 1A</span> <br> Challenges teams to build a car moved by an alternative source of energy",
         "competition-events": "The competition is divided into a series of <span style='color: #084d6e'>static and dynamic events</span>. <br> The static events consist of the presentation of the team's business plan, analysis of the costs associated with the team and the assembly of the car and analysis of the car's design from a technical point of view. The dynamic tests aim to test the behavior of the car on the track. They include a skidpad, acceleration test, autocross, endurance test and efficiency test. In these events, points will be awarded to every team's overall score, which will later determine the winning team in each class",
+        "competition-our-class": "FSUMinho will compete in class 1A with an electric car",
 
         "planet-title": "Commitment with the planet",
         "planet-text": "We are commited to a <span style='color:#084d6e'>greener future</span>. That's why we chose to equip our car with an electric power unit. The team will also support a <span style='color:#084d6e'>circular economy</span>, promoting the reuse of electrical components from portuguese industries in order to <span style='color:#084d6e'>reduce e-waste</span>. At least 25% of electronic 'trash' that reaches recycling centers, still is higly reusable. This materials are fundamental to <span style='color:#084d6e'>reduce our carbon footprint</span>.",
@@ -151,5 +152,19 @@
 
         "pack-gold-text": "Gold sponsors will have voting power in <span style='color:#084d6e'>decision-making</span> sessions. Their logo presence will be bigger compared to silver sponsors. The team will mention their company in press articles or scientific magazines. Lower tier benefits are also included.",
         "pack-gold-expetations": "Gold sponsorship requires an investment between 5000€ and 10000€"
+    },
+
+    "footer":
+    {
+        "address": "Address",
+
+        "contacts": "Contacts",
+
+        "sectors": "Sectors",
+
+        "sponsors/": "Parteners/Sponsors",
+        "institutional": "Institutional Parteners",
+        "sponsors": "Sponsors",
+        "wwu": "Work With Us"
     }
 }

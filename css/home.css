@@ -211,7 +211,16 @@
     margin: 10px;
 }
 
+.competition-our-class {
+    background-color: #e52516;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
 .car-container {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,6 +235,7 @@
 }
 
 .green-container {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -94,6 +94,7 @@ a.slide__next,
 /* NEWS SLIDER */
 
 .news-slider-container {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
