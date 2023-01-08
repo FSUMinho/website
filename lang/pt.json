@@ -21,12 +21,12 @@
     "home":
     {
         "about-us": "Sobre nós",
-        "about-us-text": "Somos um grupo de estudantes de engenharia da Universidade do Minho com base na cidade de Guimarães (Campus de Azurém) com uma paixão pelo desporto motorizado. Como a mais recente adição à Formula Student em Portugal, pretendemos entregar um projeto com bases sólidas e, a curto prazo, tornarmo-nos uma referència no norte do país.",
+        "about-us-text": "Somos um grupo de estudantes de engenharia da Universidade do Minho com base na cidade de Guimarães (Campus de Azurém) com uma paixão pelo desporto motorizado. Como a mais recente adição à Formula Student em Portugal, pretendemos entregar um projeto com bases sólidas e, a curto prazo, tornarmo-nos uma referência no norte do país.",
 
         "why-fs": "Porquê a Formula Student",
         "why-fs-text": "A Formuala Student oferece aos estudantes a chance de experênciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, nos ajudam a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, todas cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
 
-        "sectors-title": "Os nosssos setores",
+        "sectors-title": "Os nossos setores",
 
         "statistics-title": "Estatísticas",
         "statistics-members": "membros",
@@ -37,10 +37,10 @@
         "competition-title": "A competição",
         "competition-text1": "A Formula Student está devidida em 3 classes:",
         "competition-class2": "<span style='color: #084d6e'>Classe 2</span> <br> Requer a apresentação de um projeto e um protótipo",
-        "competition-class1": "<span style='color: #084d6e'>Classe 1</span> <br> Consiste na apresentação dinâmica de um carro equipada com um motor a combustão",
+        "competition-class1": "<span style='color: #084d6e'>Classe 1</span> <br> Consiste na apresentação dinâmica de um carro equipado com um motor a combustão",
         "competition-class1a": "<span style='color: #084d6e'>Classe 1A</span> <br> Desafia as equipas a construir um carro movido por energias alternativas",
         "competition-events": "A competição está dividida numa série de <span style='color: #084d6e'>provas estáticas e dinâmicas</span>. <br> As provas estátticas concistem na apresentação do plano de negócio da equipa, análise dos custos associdados à equipa e à montagem do carro e análise do design do carro de um ponto de vista técnico. As provas dinâmicas têm como objetivo testar o comportamento do carro em pista. Incluem um skidpad, prova de aceleração, autocross, prova de resistência e prova de eficiência. Nestas provas serão atribuidos pontos ao overall score das equipas, que posteriormente irá determinar a equipa vencedora de cada classe.",
-        "competition-our-class": "A FSUMunho irá competir na classe 1A com um carro eletrico",
+        "competition-our-class": "A FSUMinho irá competir na classe 1A com um carro eletrico",
 
         "planet-title": "Compromisso com o planeta",
         "planet-text": "Comprometemo-nos a contribuir para um <span style='color: #084d6e'>futuro mais verde</span>. É por essa razão que equipamos o nosso carro com um motor elétrico. A equipa irá também promover uma <span style='color: #084d6e'>economia circular</span>, recorrendo à reutilização de componentes eletrónicos de indústrias portuguesas de maneira a <span style='color: #084d6e'>reduzir o e-waste</span>. Pelo menos 25% do 'lixo' eletrónico que chega aos centros de reciclagem, tem uma alta taxa de reutilização. Estes materiais são fundamentais para a <span style='color: #084d6e'>redução da nossa pegada de carbono</span>.",
