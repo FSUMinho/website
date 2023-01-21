@@ -175,7 +175,7 @@ async function i18Loader() {
     const langSelector = document.getElementById("langSelector");
 
     const jsons = await Promise.all(
-        langs.map((l) => fetch("../lang/" + l + ".json").then((r) => r.json()))
+        langs.map((l) => fetch("lang/" + l + ".json").then((r) => r.json()))
     );
 
     const res = langs.reduce((acc, l, idx) => {
