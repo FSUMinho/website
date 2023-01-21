@@ -24,7 +24,7 @@
         "about-us-text": "We are a group of engineering students from the University of Minho based in the city of Guimarães (Azurém Campus) with a pation for motorsport. As the latest addition to the Formula Student scene in Portugal, we aim to deliver a project with a solid foundation and, in the short term, become a reference in the north of the country.",
 
         "why-fs": "Why Formula Student",
-        "why-fs-text": "Formula Student gives us students the chance to get a taste of the world of engineering. Building our car requires us to <span style='color:#084d6e'>apply all the knowledge</span> we have about our areas of expertise and <span style='color:#084d6e'>work with parteners</span> that besides supporting our project, can help us improve our methods. This project also aims to <span style='color:#084d6e'>develop soft skills</span> like menagement, communication and team work, all crucial in a <span style='color:#084d6e'>top tier engineer</span>.",
+        "why-fs-text": "Formula Student gives us students the chance to get a taste of the world of engineering. Building our car requires us to <span style='color:#084d6e'>apply all the knowledge</span> we have about our areas of expertise and <span style='color:#084d6e'>work with partners</span> that besides supporting our project, can help us improve our methods. This project also aims to <span style='color:#084d6e'>develop soft skills</span> like menagement, communication and team work, all crucial in a <span style='color:#084d6e'>top tier engineer</span>.",
 
         "sectors-title": "Our sectors",
 
@@ -108,14 +108,15 @@
 
     "sponsors":
     {
-        "title": "Sponsors & Parteners",
+        "title": "Sponsors & Partners",
         "wwu": "Work With Us",
-        "parteners": "Parteners"
+        "parteners": "Partners"
     },
 
     "partners":
     {
-        "title": "Institutional Parteners"
+        "title": "Institutional Partners",
+        "text": "FSUMinho currently has partnerships established with several student associations from different courses of the University of Minho. These partnerships allow the integration of our project in the academic community and the promotion of activities organized by the partner associations."
     }, 
 
     "form":
@@ -162,8 +163,8 @@
 
         "sectors": "Sectors",
 
-        "sponsors/": "Parteners/Sponsors",
-        "institutional": "Institutional Parteners",
+        "sponsors/": "Partners/Sponsors",
+        "institutional": "Institutional Partners",
         "sponsors": "Sponsors",
         "wwu": "Work With Us"
     }

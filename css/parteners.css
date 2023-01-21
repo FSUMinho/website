@@ -13,6 +13,10 @@
     padding: 40px;
 }
 
+.parteners-text-container {
+    text-align: center;
+}
+
 .parteners-grid-container {
     margin-left: 15vw;
     margin-right: 15vw;
@@ -20,7 +24,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -20px;
 }
 
 .grid {

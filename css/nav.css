@@ -18,7 +18,8 @@ header {
     flex-direction: row;
     align-items: center;
     margin-left: 5%;
-    z-index: 9999999;
+    z-index: 99999992;
+    background-color: #e52526;
 }
 
 .logo-white {
@@ -39,7 +40,7 @@ header {
     display: none;
     cursor: pointer;
     margin-right: 5%;
-    z-index: 9999999;
+    z-index: 99999992;
 }
 
 .bar {
@@ -79,7 +80,7 @@ header {
       text-align: center;
       transition: .5s;
       padding: 10px;
-      z-index: 9999998;
+      z-index: 9999999;
     }
 
    .nav-item {
