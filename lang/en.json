@@ -12,7 +12,7 @@
         "EB": "Bilogical Engineering",
         "EI": "Software Engineering",
         "EGI": "Engineering & Industrial Management",
-        "EEIC": "Industrial Electronics & Computers Engineering",
+        "EEIC": "Industrial Electronics & Computing Engineering",
         "EE": "Electronic Engineering",
         "EF": "Physical Engineering",
         "EMEC": "Mechanical Engineering"
@@ -21,10 +21,10 @@
     "home":
     {
         "about-us": "About us",
-        "about-us-text": "We are a group of engineering students from the University of Minho based in the city of Guimarães (Azurém Campus) with a pation for motorsport. As the latest addition to the Formula Student scene in Portugal, we aim to deliver a project with a solid foundation and, in the short term, become a reference in the north of the country.",
+        "about-us-text": "We are a group of engineering students from the University of Minho based in the city of Guimarães (Azurém Campus) with a passion for motorsport. As the latest addition to the Formula Student scene in Portugal, we aim to deliver a project with a solid foundation and, in the short term, become a reference in the north of the country.",
 
         "why-fs": "Why Formula Student",
-        "why-fs-text": "Formula Student gives us students the chance to get a taste of the world of engineering. Building our car requires us to <span style='color:#084d6e'>apply all the knowledge</span> we have about our areas of expertise and <span style='color:#084d6e'>work with partners</span> that besides supporting our project, can help us improve our methods. This project also aims to <span style='color:#084d6e'>develop soft skills</span> like menagement, communication and team work, all crucial in a <span style='color:#084d6e'>top tier engineer</span>.",
+        "why-fs-text": "Formula Student gives us students the chance to get a taste of the world of engineering. Building our car requires us to <span style='color:#084d6e'>apply all the knowledge</span> we have about our areas of expertise and <span style='color:#084d6e'>work with partners</span> that besides supporting our project, can help us improve our methods. This project also aims to <span style='color:#084d6e'>develop soft skills</span> like management, communication and team work, all crucial in a <span style='color:#084d6e'>top tier engineer</span>.",
 
         "sectors-title": "Our sectors",
 
@@ -43,15 +43,10 @@
         "competition-our-class": "FSUMinho will compete in class 1A with an electric car",
 
         "planet-title": "Commitment with the planet",
-        "planet-text": "We are commited to a <span style='color:#084d6e'>greener future</span>. That's why we chose to equip our car with an electric power unit. The team will also support a <span style='color:#084d6e'>circular economy</span>, promoting the reuse of electrical components from portuguese industries in order to <span style='color:#084d6e'>reduce e-waste</span>. At least 25% of electronic 'trash' that reaches recycling centers, still is higly reusable. This materials are fundamental to <span style='color:#084d6e'>reduce our carbon footprint</span>.",
+        "planet-text": "We are commited to a <span style='color:#084d6e'>greener future</span>. That's why we chose to equip our car with an electric power unit. The team will also support a <span style='color:#084d6e'>circular economy</span>, promoting the reuse of electrical components from portuguese industries in order to <span style='color:#084d6e'>reduce e-waste</span>. At least 25% of electronic 'trash' that reaches recycling centers, is still higly reusable. This materials are fundamental to <span style='color:#084d6e'>reduce our carbon footprint</span>.",
 
-        "roadmap1": "<span Class='month'>february '23</span> <br> <p class='goals'>Present a prototype of an <br> electric car to compete in <br> class 2.</p>",
-        "roadmap2": "<span Class='month'>march '23</span> <br> <p class='goals'>Have established <br> partenerships with <br> companies.</p>",
-        "roadmap3": "<span Class='month'>april '23</span> <br> <p class='goals'>Gather suplies to <br> assemble the car.</p>",
-        "roadmap4": "<span Class='month'>june '23</span> <br> <p class='goals'>Participate in <br> competitions.</p>",
-
-        "inst-parteners": "Intitutional Parteners",
-        "sponsors": "Sponsors & Parteners",
+        "inst-parteners": "Intitutional Partners",
+        "sponsors": "Sponsors & Partners",
 
         "updates": "Latest updates"
     },
@@ -62,7 +57,7 @@
         "text": "The management sector handles the <span style='color:#084d6e'>business</span> side of the team. It is its responsibility to gather funds for the project via <span style='color:#084d6e'>partnerships</span> and also for its <span style='color:#084d6e'>marketing</span>. Management also has to fulfil the needs of the other departments. This includes ordering parts and tools or provide trainning sessions.",
         "team": "Sector Direction",
         "leader": "Team Leader",
-        "head": "Sector Head",
+        "head": "Head of Sector",
         "contacts": "External Contacts",
         "team-mnt": "Team Management",
         "coms": "Communications"
@@ -71,9 +66,9 @@
     "pwrt": 
     {
         "title": "Sector's role",
-        "text": "The powertrain secton is responsible for the development of the <span style='color:#084d6e'>power unit</span>. It's the sector's duty to deliver a <span style='color:#084d6e'>reliable and powerful</span> electric motor.<span  style='color:#084d6e'> Efficiency</span> is also key in this sector. The power unit needs to be tuned in such a way that it is always consuming the right amount of energy.",
+        "text": "The powertrain sector is responsible for the development of the <span style='color:#084d6e'>power unit</span>. It's the sector's duty to deliver a <span style='color:#084d6e'>reliable and powerful</span> electric motor.<span  style='color:#084d6e'> Efficiency</span> is also key in this sector. The power unit needs to be tuned in such a way that it is always consuming the right amount of energy.",
         "team": "Sector Direction",
-        "head": "Sector Head",
+        "head": "Head of Sector",
         "acc": "Accumulator",
         "inv": "Inverter"
     },
@@ -81,17 +76,17 @@
     "esw":
     {
         "title": "Sector's role",
-        "text": "As the name suggests, the electronics & software sector handles all the <span style='color:#084d6e'>electronic components and software</span> that keep the car safe and running smooth. The sector makes sure all the major components of the car are <span style='color:#084d6e'>properly programmed</span> and <span style='color:#084d6e'>communicating</span> between each other.",
+        "text": "As the name suggests, the electronics & software sector handles all the <span style='color:#084d6e'>electronic components and software</span> that keep the car safe and running smoothly. The sector makes sure all the major components of the car are <span style='color:#084d6e'>properly programmed</span> and <span style='color:#084d6e'>communicating</span> between each other.",
         "team": "ESW team",
-        "head": "Sector Head"
+        "head": "Head of Sector"
     },
 
     "dvrt":
     {
         "title": "Sector's role",
-        "text": "The drivetrain sector focus on <span style='color:#084d6e'>delivering power</span> from the engine to the wheels. It aims to achieve the most efficient power transfer in order to secure <span style='color:#084d6e'>maximum acceleration</span> and <span style='color:#084d6e'>maintain speed</span> for the full race distance.",
+        "text": "The drivetrain sector focuses on <span style='color:#084d6e'>delivering power</span> from the engine to the wheels. It aims to achieve the most efficient power transfer in order to secure <span style='color:#084d6e'>maximum acceleration</span> and <span style='color:#084d6e'>maintain speed</span> for the full race distance.",
         "team": "Drivetrain team",
-        "head":"Sector Head",
+        "head":"Head of Sector",
         "axels": "Semi-axels",
         "int": "Powertrain integration"
     },
@@ -99,9 +94,9 @@
     "body":
     {
         "title": "Sector's role",
-        "text": "The body sector will take care of everything related to <span style='color:#084d6e'>bodywork, aerodynamics, suspension and chassis</span>. The sector's goals are to deliver a strong and light structure that is both able to handle the abuse on track and to <span style='color:#084d6e'>keep the driver safe</span> in case of impact, to produce aerodynamic compenents that keep the <span style='color:#084d6e'>car stable at high speeds</span> and to develop a suspension able to <span style='color:#084d6e'>keep the wheels in contact with the track</span> at all times.",
+        "text": "The body sector will take care of everything related to <span style='color:#084d6e'>bodywork, aerodynamics, suspension and chassis</span>. The sector's goals are to deliver a strong and light structure that is both able to handle the abuse on track and to <span style='color:#084d6e'>keep the driver safe</span> in case of impact, to produce aerodynamic components that keep the <span style='color:#084d6e'>car stable at high speeds</span> and to develop a suspension able to <span style='color:#084d6e'>keep the wheels in contact with the track</span> at all times.",
         "team": "Body team",
-        "head":"Sector Head",
+        "head":"Head of Sector",
         "dir": "Sector Direction",
         "susp": "Suspension"
     },
@@ -128,22 +123,22 @@
     "invest":
     {
         "title": "Work with us",
-        "why-title": "Why invest in FSUM",
-        "why-text": " We are more than a group of students with a pation for motorsport. FSUM represents the first step in the formation of top engineers. Our members will enter the job market with experience and skills that will make them stand out. We want to offer students the chance of being part of a group that values everyone's work and pushes all members to show their full potencial. Investing in our project means investing in the next generation of engineers and making shure that they gather as much experience as possible so that some day in the future they make a difference and push technology foward.",
+        "why-title": "Why invest in FSUMinho",
+        "why-text": " We are more than a group of students with a passion for motorsport. FSUM represents the first step in the formation of top engineers. Our members will enter the job market with experience and skills that will make them stand out. We want to offer students the chance of being part of a group that values everyone's work and pushes all members to show their full potential. Investing in our project means investing in the next generation of engineers and making sure that they gather as much experience as possible so that some day in the future they make a difference and push technology foward.",
 
         "how-title": "How to invest",
         "monetary-title": "Monetary support",
-        "monetary-text": "Motorsport isn't cheap at all. Expences start accumulating in the development of the car and can reach a great ammount when we start competing. Supporting financially our project helps us manage all the expences all reach our goals.",
+        "monetary-text": "Motorsport isn't cheap at all. Expenses start accumulating in the development of the car and can reach a great ammount when we start competing. Supporting our project finacially helps us manage all the expences all reach our goals.",
         "materials-title": "Supply materials",
         "materials-text": "In order to build the car that we are designing, we'll need to gather various materials. Supplying materials to the team helps us take the car from the modeling software to the race track.",
         "knowledge-title": "Knowledge",
-        "knowledge-text": "Even though we consider ourselves very skilled and talented, knowledge is never enough. We are always open to learn from actual profetionals from our areas of expertise.",
+        "knowledge-text": "Even though we consider ourselves very skilled and talented, knowledge is never enough. We are always open to learn from actual professionals from our areas of expertise.",
 
         "pack-title": "Investment packages",
 
         "pack-partner": "Partners",
         "pack-partner-text": "Partners will benefit from <span style='color:#084d6e'>divulgation of their brands</span> via social media campaigns and their logos will be present in our car.",
-        "pack-partner-expetations": "We expect our partners to also divulgate our brand and help us establish useful contacts.",
+        "pack-partner-expetations": "We expect our partners to also divulge our brand and help us establish useful contacts.",
 
         "pack-bronze-text": "Bronze sponsors will have a spot in our sponsor portfolio. They will have their <span style='color:#084d6e'>logo present in the car</span> in more visible parts of the bodywork and merchandising items. Lower tier benefits are also included.",
         "pack-bronze-expetations": "Bronze sponsorship requires an investment between 1000€ and 2500€",

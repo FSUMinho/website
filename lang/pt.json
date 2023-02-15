@@ -7,7 +7,7 @@
     "courses":
     {
         "EGSI": "Engenharia e Gestão de <br> Sistemas de Informação",
-        "EQB": "Engenharia Quimica <br> e Biológica",
+        "EQB": "Engenharia Química <br> e Biológica",
         "EM": "Engenharia de Materiais",
         "EB": "Engenharia Biológica",
         "EI": "Engenharia Informática",
@@ -24,7 +24,7 @@
         "about-us-text": "Somos um grupo de estudantes de engenharia da Universidade do Minho com base na cidade de Guimarães (Campus de Azurém) com uma paixão pelo desporto motorizado. Como a mais recente adição à Formula Student em Portugal, pretendemos entregar um projeto com bases sólidas e, a curto prazo, tornarmo-nos uma referência no norte do país.",
 
         "why-fs": "Porquê a Formula Student",
-        "why-fs-text": "A Formuala Student oferece aos estudantes a chance de experênciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, nos ajudam a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, todas cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
+        "why-fs-text": "A Formula Student oferece aos estudantes a chance de experenciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, nos ajudam a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, todas cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
 
         "sectors-title": "Os nossos setores",
 
@@ -35,7 +35,7 @@
         "statistics-cars": "carro",
 
         "competition-title": "A competição",
-        "competition-text1": "A Formula Student está devidida em 3 classes:",
+        "competition-text1": "A Formula Student está dividida em 3 classes:",
         "competition-class2": "<span style='color: #084d6e'>Classe 2</span> <br> Requer a apresentação de um projeto e um protótipo",
         "competition-class1": "<span style='color: #084d6e'>Classe 1</span> <br> Consiste na apresentação dinâmica de um carro equipado com um motor a combustão",
         "competition-class1a": "<span style='color: #084d6e'>Classe 1A</span> <br> Desafia as equipas a construir um carro movido por energias alternativas",
@@ -59,9 +59,9 @@
     "mnt":
     {
         "title": "Função do setor",
-        "text": "A equipa de management e responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
+        "text": "A equipa de management é responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
         "team": "Direção do Setor",
-        "leader": "Lider da Equipa",
+        "leader": "Líder da Equipa",
         "head": "Chefe de Setor",
         "contacts": "Contactos Externos",
         "team-mnt": "Gestão da Equipa",
@@ -71,7 +71,7 @@
     "pwrt": 
     {
         "title": "Função do setor",
-        "text": "O setor de powertrain é responsável pelo desenvolvimento do <span style='color:#084d6e'>motor elétrico</span>. Cabe a este setor a este setor entregar uma unidade motriz <span style='color:#084d6e'>potente e durável</span>. <span style='color:#084d6e'>Eficiência</span> é um dos pontos mais importantes para powertrain. O motor deve ser programado de forma a que consuma sempre a quantidade certa de energia.",
+        "text": "O setor de powertrain é responsável pelo desenvolvimento do <span style='color:#084d6e'>motor elétrico</span>. Cabe a este setor entregar uma unidade motriz <span style='color:#084d6e'>potente e durável</span>. <span style='color:#084d6e'>Eficiência</span> é um dos pontos mais importantes para powertrain. O motor deve ser programado de forma a que consuma sempre a quantidade certa de energia.",
         "team": "Direção do Setor",
         "head": "Chefe de Setor",
         "acc": "Acumulador",
@@ -81,7 +81,7 @@
     "esw":
     {
         "title": "Função do setor",
-        "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre sí.",
+        "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre si.",
         "team": "Direção do Setor",
         "head": "Chefe de Setor"
     },
@@ -128,30 +128,30 @@
     "invest":
     {
         "title": "Trabalhe Connosco",
-        "why-title": "Porquê investir na FSUM",
-        "why-text": "Nós somos mais que um grupo de estudantes com uma paixão pelo desporto motorizado. A FSUM representa o primeiro passo na formação de enginheiros de topo. Os nossos memebros entrarão no mercado de trabalho com experiência e capacidades que os distinguirão da concorrência. Queremos oferecer aos estudantes a oportunidade de fazer parte de um grupo que valoriza o trabalho de todos e icentiva todos os membros a mostrarem o seu potencial. Investir no nosso projeto significa investir na próxima gereção de enginherios e garantir que estes acomulem o máximo de experioência possível para que no futuro possam fazer a diferença e contribuir para o desenvolvimento tecnológico.",
+        "why-title": "Porquê investir na FSUMinho",
+        "why-text": "Nós somos mais que um grupo de estudantes com uma paixão pelo desporto motorizado. A FSUM representa o primeiro passo na formação de engenheiros de topo. Os nossos membros entrarão no mercado de trabalho com experiência e capacidades que os distinguirão da concorrência. Queremos oferecer aos estudantes a oportunidade de fazer parte de um grupo que valoriza o trabalho de todos e icentiva todos os membros a mostrarem o seu potencial. Investir no nosso projeto significa investir na próxima gereção de engenherios e garantir que estes acumulem o máximo de experioência possível para que no futuro possam fazer a diferença e contribuir para o desenvolvimento tecnológico.",
 
         "how-title": "Como investir",
         "monetary-title": "Suporte Monetário",
         "monetary-text": "O desporto motorizado não é barato. As despesas começam a acumular no desenvolvimento do carro e alcançam um valor alto na época das competições. Suportar-nos financeiramente ajuda-nos a gerir as despesas e a alcançar os objetivos.",
         "materials-title": "Fornecer materiais",
-        "materials-text": "Para podermos construir o carro que projetamos, nacessotaremos de vários materiais. Fornecer materiais à equipa ajuda-nos a passar o carro do software de modelação para a pista.",
+        "materials-text": "Para podermos construir o carro que projetamos, nacessitaremos de vários materiais. Fornecer materiais à equipa ajuda-nos a passar o carro do software de modelação para a pista.",
         "knowledge-title": "Conhecimento",
-        "knowledge-text": "Apesar de nos conciderarmos bastante talentosos e experientes, conhecimento nunca é demais. Estamos sempre abertos para aprender com profissionais das nossas áreas de estudo.",
+        "knowledge-text": "Apesar de nos considerarmos bastante talentosos e experientes, conhecimento nunca é demais. Estamos sempre abertos para aprender com profissionais das nossas áreas de estudo.",
 
         "pack-title": "Pacotes de investimento",
 
         "pack-partner": "Parceiros",
         "pack-partner-text": "Parceiros beneficiarão da <span style=' color: #084d6e'>divulgação da sua marca</span> através de campanhas nas redes sociais e o seu logo estará presente no carro. Terão ainda um lugar no nosso portfólio de parceiros.",
-        "pack-partner-expetations": "É esperado que os nossos parceiros divulguem a nossa marca e nos ajudem a estabelecer contectos",
+        "pack-partner-expetations": "É esperado que os nossos parceiros divulguem a nossa marca e nos ajudem a estabelecer contactos",
 
-        "pack-bronze-text": "Os patrocinadores Bronze terão um lugar no nosso portfólio de patrocinadores. O seu <span style=' color: #084d6e'>logo estará mais visível</span> no bodywork do carro e em peças de merchandising. Beneficios de niveis inferiores também se aplicam.",
+        "pack-bronze-text": "Os patrocinadores Bronze terão um lugar no nosso portfólio de patrocinadores. O seu <span style=' color: #084d6e'>logo estará mais visível</span> no bodywork do carro e em peças de merchandising. Beneficios de níveis inferiores também se aplicam.",
         "pack-bronze-expetations": "Patrocinio Bronze requer um investimento entre 1000€ e 2500€",
 
-        "pack-silver-text": "Os patrocinadores Silver terão <span style=' color: #084d6e'>estatuto VIP</span> em eventos organizados pela FSUM. O seu logo estará ainda mais visível no bodywork e marchandising em comparação com os logos Bronze. Receberão ainda um <span style='color: #084d6e'>relatório mensal</span> sobre o progresso do projeto. Beneficios de niveis inferiores também se aplicam.",
+        "pack-silver-text": "Os patrocinadores Silver terão <span style=' color: #084d6e'>estatuto VIP</span> em eventos organizados pela FSUM. O seu logo estará ainda mais visível no bodywork e merchandising em comparação com os logos Bronze. Receberão ainda um <span style='color: #084d6e'>relatório mensal</span> sobre o progresso do projeto. Benefícios de níveis inferiores também se aplicam.",
         "pack-silver-expetations": "Patrocinio Silver requer um investimento entre 2500€ e 5000€",
 
-        "pack-gold-text": "Os patrocinadores Gold terão <span style=' color: #084d6e'>poder de voto</span> na tomdada de decisões. O seu logo terá o maior destaque no carro e no merchandising. Os patrocionadores Gold serão ainda mencionados em artigos de imprensa ou revistas científicas. Beneficios de niveis inferiores também se aplicam.",
+        "pack-gold-text": "Os patrocinadores Gold terão <span style=' color: #084d6e'>poder de voto</span> na tomdada de decisões. O seu logo terá o maior destaque no carro e no merchandising. Os patrocionadores Gold serão ainda mencionados em artigos de imprensa ou revistas científicas. Benefícios de níveis inferiores também se aplicam.",
         "pack-gold-expetations": "Patrocinio Gold requer um investimento entre 5000€ e 10000€"
     },
 
