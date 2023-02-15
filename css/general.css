@@ -49,6 +49,16 @@ button {
   cursor: pointer;
 }
 
+@media (max-width: 800px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+}
+
 /* SCROLL */
 
 *::-webkit-scrollbar {

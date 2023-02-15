@@ -242,77 +242,62 @@
     width: 300px;
 }
 
-.roadmap-container {
+.buttons-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    margin-top: 20px;
-}
-
-.month {
-    font-family: 'Kanit';
-    font-size: 40px;
-    font-weight: bold;
-    background: #e52516;
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.goals {
-    margin-left: 0vw;
-    margin-right: 0vw;
-}
-
-.parteners-container {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    gap: 50px;
     margin-top: 40px;
-    margin-bottom: 40px;
 }
 
-.parteners-title {
-    margin-top: 20px;
+.partener-button {
+    height: auto;
+    width: 40%;
+    padding:30px 20px;
     font-style: italic;
     font-weight: bold;
-    font-size: 50px;
     color: white;
     background: #e52516;
     border-radius: 20px;
-    padding: 30px 20px;
+    font-size: 40px;
     transition: all .2s ease-in-out;
-}
-
-.parteners-title:hover {
-    cursor: pointer;
-    transform: scale(1.04);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.sponsors-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin-top: 20px;
 }
 
-.sponsors-title {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 50px;
-    color: white;
-    background: #e52516;
-    border-radius: 20px;
-    padding: 30px 20px;
-    transition: all .2s ease-in-out;
-}
-
-.sponsors-title:hover {
+.partener-button:hover {
     cursor: pointer;
     transform: scale(1.04);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width: 800px) {
+    .stat-card {
+        width: 300px;
+    }
+
+    .stat-icon {
+        width: 80px;
+    }
+
+    .class-card {
+        width: 260px;
+        height: 160px;
+    }
+
+    .green-img {
+        width: 200px;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .partener-button {
+        font-size: 20px;
+    }
 }
