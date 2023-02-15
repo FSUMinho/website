@@ -220,8 +220,8 @@
 .model {
     margin-top: -20px;
     border-radius: 20px;
-    height: 500px;
-    width: 900px;
+    max-height: 500px;
+    max-width: 900px;
 }
 
 .green-container {
@@ -254,7 +254,7 @@
 .partener-button {
     height: auto;
     width: 40%;
-    padding:30px 20px;
+    padding: 20px 5px;
     font-style: italic;
     font-weight: bold;
     color: white;
