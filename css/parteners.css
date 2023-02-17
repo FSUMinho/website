@@ -18,12 +18,13 @@
 }
 
 .parteners-grid-container {
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .grid {
@@ -49,3 +50,13 @@
     width: 100%;
 }
 
+@media (max-width: 800px) {
+    .parteners-title {
+        font-size: 25px;
+        padding: 25px;
+    }
+
+    .part {
+        width: 80%;
+    }
+}
