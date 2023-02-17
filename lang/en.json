@@ -117,7 +117,8 @@
     "form":
     {
         "title": "Get in touch",
-        "send": "Submit"
+        "send": "Submit",
+        "thanks": "Thank you for your message <br> We will get back to you as soon as possible"
     },
 
     "invest":

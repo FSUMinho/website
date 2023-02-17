@@ -121,8 +121,9 @@
 
     "form":
     {
-        "title": "Contacte-nos",
-        "send": "Enviar"
+        "title": "Entre em Contacto",
+        "send": "Enviar",
+        "thanks": "Obrigado por entrar em contacto <br> Responderemos o mais breve possível"
     },
 
     "invest":
