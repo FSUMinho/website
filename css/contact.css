@@ -55,7 +55,6 @@
 
 .send-button:hover {
     transform: scale(1.05);
-    cursor: pointer;
 }
 
 .name, .email {
@@ -87,16 +86,15 @@ form input, form textarea {
     background-color: white;
 }
 
-form button {
+form .send-button {
     padding: 15px;
     font-size: 18px;
-    border: 0;
-    outline: none;
     cursor: pointer;
     width: 150px;
     border-radius: 20px;
     background-color: white;
     font-family: 'Kanit';
+    text-align: center;
 }
 
 @media (max-width: 800px) {

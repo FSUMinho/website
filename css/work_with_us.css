@@ -8,6 +8,13 @@
     text-align: center;
 }
 
+.work-with-us-title {
+    background-color: #e52516;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
 .why-invest-container {
     display: flex;
     flex-direction: column;
@@ -111,4 +118,19 @@
     border-radius: 20px;
     margin-top: -10px;
     padding: 15px;
+}
+
+@media (max-width: 800px) {
+    .work-with-us-title {
+        font-size: 30px;
+        padding: 25px;
+    }
+
+    .method-title {
+        font-size: 25px;
+    }
+
+    .why-invest-title, .how-to-invest-title, .investor-tiers-title {
+        font-size: 28px;
+    }
 }
