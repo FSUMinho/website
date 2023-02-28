@@ -1,4 +1,6 @@
 {
+    "blanck": "",
+
     "nav":
     {
         "contact": "Contacto"
@@ -45,11 +47,6 @@
         "planet-title": "Compromisso com o planeta",
         "planet-text": "Comprometemo-nos a contribuir para um <span style='color: #084d6e'>futuro mais verde</span>. É por essa razão que equipamos o nosso carro com um motor elétrico. A equipa irá também promover uma <span style='color: #084d6e'>economia circular</span>, recorrendo à reutilização de componentes eletrónicos de indústrias portuguesas de maneira a <span style='color: #084d6e'>reduzir o e-waste</span>. Pelo menos 25% do 'lixo' eletrónico que chega aos centros de reciclagem, tem uma alta taxa de reutilização. Estes materiais são fundamentais para a <span style='color: #084d6e'>redução da nossa pegada de carbono</span>.",
 
-        "roadmap1": "<span Class='month'>fevereiro '23</span> <br> <p class='goals'>Apresentar um protótipo de <br> um carro elétrico para <br> competir na classe 2</p>",
-        "roadmap2": "<span Class='month'>março '23</span> <br> <p class='goals'>Ter parcerias estabelecidas <br> com empresas</p>",
-        "roadmap3": "<span Class='month'>abril '23</span> <br> <p class='goals'>Adquirir materiais <br> para construir o carro</p>",
-        "roadmap4": "<span Class='month'>junho '23</span> <br> <p class='goals'>Participar em <br> competições</p>",
-
         "inst-parteners": "Parceiros Institucionais",
         "sponsors": "Patrocinadores & Parceiros",
 
@@ -60,9 +57,9 @@
     {
         "title": "Função do setor",
         "text": "A equipa de management é responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
-        "team": "Direção do Setor",
+        "team": "Equipa de Management",
         "leader": "Líder da Equipa",
-        "head": "Chefe de Setor",
+        "head": "Head de Management",
         "contacts": "Contactos Externos",
         "team-mnt": "Gestão da Equipa",
         "coms": "Comunicações"  
@@ -72,8 +69,8 @@
     {
         "title": "Função do setor",
         "text": "O setor de powertrain é responsável pelo desenvolvimento do <span style='color:#084d6e'>motor elétrico</span>. Cabe a este setor entregar uma unidade motriz <span style='color:#084d6e'>potente e durável</span>. <span style='color:#084d6e'>Eficiência</span> é um dos pontos mais importantes para powertrain. O motor deve ser programado de forma a que consuma sempre a quantidade certa de energia.",
-        "team": "Direção do Setor",
-        "head": "Chefe de Setor",
+        "team": "Equipa de Powertrain",
+        "head": "Head de Powertrain",
         "acc": "Acumulador",
         "inv": "Inversor"
     },
@@ -82,28 +79,31 @@
     {
         "title": "Função do setor",
         "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre si.",
-        "team": "Direção do Setor",
-        "head": "Chefe de Setor"
+        "team": "Equipa de ESW",
+        "head": "Head de ESW"
     },
 
     "dvrt":
     {
         "title": "Função do setor",
         "text": "O setor de drivetrain foca-se em <span style='color:#084d6e'>passar a potência</span> do motor para as rodas. O seu objetivo é obter a transferência de potência mais eficiente possível para que o carro consiga alcançar a <span style='color:#084d6e'>aceleração máxima</span> e <span style='color:#084d6e'>manter a velocidade</span> durante a distância da corrida.",
-        "team": "Direção do Setor",
-        "head": "Chefe de Setor",
+        "team": "Equipa de Drivetrain",
+        "head": "Head de Drivetrain",
         "axels": "Semi-eixos",
-        "int": "Integração com <br> Powertrain"
+        "int": "Integração com <br> Powertrain",
+        "dif": "Diferencial"
     },
 
     "body":
     {
         "title": "Função do setor",
         "text": "O setor de body trabalha com tudo relacionado com o <span style='color:#084d6e'>bodywork, aerodinâmica, suspensão e chassis</span> do carro. Os objetivos do setor são entregar uma estrutura leve e forte capaz de aguentar o abuso na pista e capaz de <span style='color:#084d6e'>proteger o piloto</span> em caso de impacto, produzir componentes aerodinâmicos que mantenham o carro <span style='color:#084d6e'>estável a alta velocidade</span> e desenvolver uma suspensão capaz de <span style='color:#084d6e'>manter as rodas em contacto com o piso</span> para que o carro seja o mais estável possível.",
-        "team": "Direção do Setor",
-        "head": "Chefe de Setor",
-        "dir": "Direção do Setor",
-        "susp": "Suspensão"
+        "team": "Equipa de Body",
+        "head": "Head de Body",
+        "dir": "Direção",
+        "susp": "Suspensão",
+        "uprights": "Uprights",
+        "chassis": "Chassis"
     },
 
     "sponsors":
