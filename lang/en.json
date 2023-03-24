@@ -91,7 +91,12 @@
         "title": "Sector's role",
         "text": "As the name suggests, the electronics & software sector handles all the <span style='color:#084d6e'>electronic components and software</span> that keep the car safe and running smoothly. The sector makes sure all the major components of the car are <span style='color:#084d6e'>properly programmed</span> and <span style='color:#084d6e'>communicating</span> between each other.",
         "team": "ESW team",
-        "head": "Head of ESW"
+        "head": "Head of ESW",
+        "rtd": "Readt to Drive",
+        "imd": "Isolation Monitoring <br> Device",
+        "senaq": "Sensor Acquisition",
+        "tsal": "Tractive System Active Light",
+        "bspd": "Brake System <br> Plausibility Device"
     },
 
     "dvrt":
@@ -102,7 +107,8 @@
         "head":"Head of Sector",
         "axels": "Semi-axels",
         "int": "Powertrain integration",
-        "dif": "Differential"
+        "dif": "Differential",
+        "ref": "Accumulator Cooling"
     },
 
     "body":

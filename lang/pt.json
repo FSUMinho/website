@@ -91,7 +91,12 @@
         "title": "Função do setor",
         "text": "Como o nome sugere, o setor de eletronics & software trata dos <span style='color:#084d6e'>componentes eletrónicos e do software</span> que fazem com que o carro opere de forma segura e eficiente. Os principais objetivos do setor são <span style='color:#084d6e'>programar</span> os principais componentes do carro e garantir que estes <span style='color:#084d6e'>comunicam</span> entre si.",
         "team": "Equipa de ESW",
-        "head": "Head de ESW"
+        "head": "Head de ESW",
+        "rtd": "Ready to Drive",
+        "imd": "<span style='font-size: 20px;'>Dispositivo de Monitoramento de Isolamento</span>",
+        "senaq": "Aquisição de Sensores",
+        "tsal": "Luz de ativação do <br> Sistema de tração",
+        "bspd": "<span style='font-size: 20px;'>Dispositivo de plausibilidade <br> do sistema de travagem</span>"
     },
 
     "dvrt":
@@ -102,7 +107,8 @@
         "head": "Head de Drivetrain",
         "axels": "Semi-eixos",
         "int": "Integração com <br> Powertrain",
-        "dif": "Diferencial"
+        "dif": "Diferencial",
+        "ref": "Refrigeração do Acumulador"
     },
 
     "body":
