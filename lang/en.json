@@ -50,7 +50,16 @@
         "inst-parteners": "Intitutional Partners",
         "sponsors": "Sponsors & Partners",
 
-        "updates": "Latest updates"
+        "updates": "Latest updates",
+
+        "team": "Meet the team"
+    },
+
+    "team": 
+    {
+        "whos-in-charge": "Team Lidership",
+
+        "whos-in-charge-text": "In front of the team are the Team Leader and the Technical Director. The <span style='color: #084d6e'>Team Leader</span>, as the name implies, is at the top of the chain of command. It is his responsibility to make all decisions that involve the entire team and to decide its direction. The <span style='color: #084d6e'>Technical Director</span> is the Team Leader's right-hand man. He is responsible for overseeing and monitoring the development of the car across all sectors."
     },
 
     "mnt": 
@@ -59,6 +68,7 @@
         "text": "The management sector handles the <span style='color:#084d6e'>business</span> side of the team. It is its responsibility to gather funds for the project via <span style='color:#084d6e'>partnerships</span> and also for its <span style='color:#084d6e'>marketing</span>. Management also has to fulfil the needs of the other departments. This includes ordering parts and tools or provide trainning sessions.",
         "team": "Management Team",
         "leader": "Team Leader",
+        "dir": "Technical Director",
         "head": "Head of Management",
         "contacts": "External Contacts",
         "team-mnt": "Team Management",

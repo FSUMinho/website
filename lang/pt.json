@@ -50,7 +50,16 @@
         "inst-parteners": "Parceiros Institucionais",
         "sponsors": "Patrocinadores & Parceiros",
 
-        "updates": "Ultimas notícias"
+        "updates": "Ultimas notícias",
+
+        "team": "Conhece a equipa"
+    },
+
+    "team":
+    {
+        "whos-in-charge": "Direção da equipa",
+
+        "whos-in-charge-text": "À frente da equipa estão o Líder da Equipa e o Diretor Técnico. O <span style='color: #084d6e'>Líder da Equipa</span>, como o próprio nome indica, está no topo da cadeia de comando. Cabe-lhe tomar todas as decisões que abrangem toda a equipa e decidir o seu rumo. O <span style='color: #084d6e'>Diretor Técnico</span> é o braço direito do Líder da Equipa. É responsável por supervisionar e acompanhar o desenvolvimento do carro por todos os setores." 
     },
 
     "mnt":
@@ -59,6 +68,7 @@
         "text": "A equipa de management é responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
         "team": "Equipa de Management",
         "leader": "Líder da Equipa",
+        "dir": "Diretor Técnico",
         "head": "Head de Management",
         "contacts": "Contactos Externos",
         "team-mnt": "Gestão da Equipa",

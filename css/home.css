@@ -53,8 +53,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
     padding: 10px;
     transition: all .5s ease-in-out;
@@ -268,6 +268,37 @@
 .partener-button:hover {
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.meet-the-team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.meet-the-team-title {
+    background-color: #e52516;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    padding: 80px;
+}
+
+.meet-the-team-title:hover {
+    transition: all .5s ease;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/meet_the_team.jpeg);
+    background-position: 10% 10%;
+    background-size: cover;
+    transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
