@@ -82,7 +82,8 @@
         "team": "Powertrain Team",
         "head": "Head of Powertrain",
         "acc": "Accumulator",
-        "inv": "Inverter"
+        "inv": "Inverter",
+        "cons": "Conectors"
     },
 
     "esw":
