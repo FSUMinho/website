@@ -336,4 +336,10 @@
         font-size: 5px;
         padding: 5px;
     }
+
+    .card {
+        width: 200px;
+        height: 200px;
+        font-size: 25px;
+    }
 }
