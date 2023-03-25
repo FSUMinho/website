@@ -20,7 +20,7 @@ function countMembers()
 
     const countValues = [];
 
-    const filePaths = ['../html/team.html', '../html/management.html', '../html/esw.html', '../html/drivetrain.html', '../html/powertrain.html', '../html/body.html'];
+    const filePaths = ['html/team.html', 'html/management.html', 'html/esw.html', 'html/drivetrain.html', 'html/powertrain.html', 'html/body.html'];
 
     // Loop through the file URLs and create a fetch() Promise for each one
     filePaths.forEach(url => {
