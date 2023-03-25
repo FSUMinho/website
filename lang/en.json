@@ -83,7 +83,8 @@
         "head": "Head of Powertrain",
         "acc": "Accumulator",
         "inv": "Inverter",
-        "cons": "Conectors"
+        "cons": "Conectors",
+        "charge": "Battery Charging"
     },
 
     "esw":
