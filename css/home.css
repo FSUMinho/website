@@ -53,8 +53,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
     padding: 10px;
     transition: all .5s ease-in-out;
@@ -335,11 +335,5 @@
     .meet-the-team-title {
         font-size: 5px;
         padding: 5px;
-    }
-
-    .card {
-        width: 200px;
-        height: 200px;
-        font-size: 25px;
     }
 }
