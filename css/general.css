@@ -60,6 +60,12 @@ button {
   }
 }
 
+@media (max-width: 800px) {
+  .text {
+    text-align: center;
+  }
+}
+
 /* SCROLL */
 
 *::-webkit-scrollbar {
