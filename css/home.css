@@ -9,7 +9,7 @@
         linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-        ), url(../imgs/fs.png);
+        ), url(../imgs/home_banner.jpg);
     color: white;
     background-position: center;
     background-size: cover;
@@ -53,8 +53,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
     padding: 10px;
     transition: all .5s ease-in-out;
