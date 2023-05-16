@@ -36,9 +36,9 @@
 
         "competition-title": "A competição",
         "competition-text1": "A Formula Student está dividida em 3 classes:",
-        "competition-class2": "<span style='color: #084d6e'>Classe 2</span> <br> Requer a apresentação de um projeto e um protótipo",
-        "competition-class1": "<span style='color: #084d6e'>Classe 1</span> <br> Consiste na apresentação dinâmica de um carro equipado com um motor a combustão",
-        "competition-class1a": "<span style='color: #084d6e'>Classe 1A</span> <br> Desafia as equipas a construir um carro movido por energias alternativas",
+        "competition-class2": "<span style='color: #084d6e; font-weight: bold'>Classe 2</span> <br> Requer a apresentação de um projeto e um protótipo",
+        "competition-class1": "<span style='color: #084d6e; font-weight: bold'>Classe 1</span> <br> Consiste na apresentação dinâmica de um carro equipado com um motor a combustão",
+        "competition-class1a": "<span style='color: #084d6e; font-weight: bold'>Classe 1A</span> <br> Desafia as equipas a construir um carro movido por energias alternativas",
         "competition-events": "A competição está dividida numa série de <span style='color: #084d6e'>provas estáticas e dinâmicas</span>. <br> As provas estáticas concistem na apresentação do plano de negócio da equipa, análise dos custos associdados à equipa e à montagem do carro e análise do design do carro de um ponto de vista técnico. As provas dinâmicas têm como objetivo testar o comportamento do carro em pista. Incluem um skidpad, prova de aceleração, autocross, prova de resistência e prova de eficiência. Nestas provas serão atribuidos pontos ao overall score das equipas, que posteriormente irá determinar a equipa vencedora de cada classe.",
         "competition-our-class": "A FSUMinho irá competir na classe 1A com um carro elétrico",
 

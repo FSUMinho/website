@@ -36,9 +36,9 @@
 
         "competition-title": "The competition",
         "competition-text1": "Formula Student is divided in 3 classes:",
-        "competition-class2": "<span style='color: #084d6e'>Class 2</span> <br> requires the presentation of a project and a prototype",
-        "competition-class1": "<span style='color: #084d6e'>Class 1</span> <br> Will require a dynamic presentation of a car equiped with an internal combustion engine",
-        "competition-class1a": "<span style='color: #084d6e'>Class 1A</span> <br> Challenges teams to build a car moved by an alternative source of energy",
+        "competition-class2": "<span style='color: #084d6e; font-weight: bold'>Class 2</span> <br> requires the presentation of a project and a prototype",
+        "competition-class1": "<span style='color: #084d6e; font-weight: bold'>Class 1</span> <br> Will require a dynamic presentation of a car equiped with an internal combustion engine",
+        "competition-class1a": "<span style='color: #084d6e; font-weight: bold'>Class 1A</span> <br> Challenges teams to build a car moved by an alternative source of energy",
         "competition-events": "The competition is divided into a series of <span style='color: #084d6e'>static and dynamic events</span>. <br> The static events consist of the presentation of the team's business plan, analysis of the costs associated with the team and the assembly of the car and analysis of the car's design from a technical point of view. The dynamic tests aim to test the behavior of the car on the track. They include a skidpad, acceleration test, autocross, endurance test and efficiency test. In these events, points will be awarded to every team's overall score, which will later determine the winning team in each class",
         "competition-our-class": "FSUMinho will compete in class 1A with an electric car",
 
