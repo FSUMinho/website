@@ -209,6 +209,12 @@
     margin-top: -10px;
 }
 
+.assembly-gif {
+    border-radius: 20px;
+    width: 55%;
+    height: auto;
+}
+
 .car-container {
     margin-top: 20px;
     display: flex;
