@@ -301,7 +301,7 @@
     linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(../imgs/meet_the_team.jpeg);
+    ), url(../imgs/group_pic.jpg);
     background-position: 10% 10%;
     background-size: cover;
     transform: scale(1.05);
