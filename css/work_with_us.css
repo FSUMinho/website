@@ -78,6 +78,11 @@
     font-weight: bold;
 }
 
+.investment-method-text {
+    text-align: justify;
+    max-width: 90%;
+}
+
 .img {
     height: auto;
     width: 100px;
@@ -105,11 +110,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     height: auto;
     max-width: 800px;
     padding: 0px 20px;
     margin: 5px;
+}
+
+.package-description {
+    max-width: 95%;
 }
 
 .expetations {
@@ -118,6 +127,7 @@
     border-radius: 20px;
     margin-top: -10px;
     padding: 15px;
+    text-align: center;
 }
 
 @media (max-width: 800px) {

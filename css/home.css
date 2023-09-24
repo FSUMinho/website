@@ -9,9 +9,9 @@
         linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-        ), url(../imgs/home_banner.jpg);
+        ), url(../imgs/fspt_group_photo.jpg);
+    background-position: 0% 10%;
     color: white;
-    background-position: center;
     background-size: cover;
 }
 
@@ -53,8 +53,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 20px;
     padding: 10px;
     transition: all .5s ease-in-out;
@@ -117,14 +117,28 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.body:hover {
+.chassis_aero:hover {
     transition: all .5s ease;
     cursor: pointer;
     background: 
     linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-    ), url(../imgs/departments/body.png);
+    ), url(../imgs/departments/chassis_aero.png);
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.suspension_steering:hover {
+    transition: all .5s ease;
+    cursor: pointer;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../imgs/departments/suspension_steering.png);
     background-position: center;
     background-size: cover;
     transform: scale(1.05);
@@ -306,6 +320,24 @@
     background-size: cover;
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.fspt23-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fspt23-text {
+    margin-top: -20px;
+}
+
+.fspt23-trophies {
+    height: auto;
+    width: 40vw;
+    border-radius: 20px;
 }
 
 @media (max-width: 800px) {

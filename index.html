@@ -99,10 +99,12 @@
         <img src="imgs/assembly.gif" class="assembly-gif">
     </div>
 
-    <div class="meet-the-team-container" data-aos="fade-up">
-        <a class="meet-the-team-title" href="html/team.html">
-            <h1 class="i18nelement" data-i18n="home.team"></h1>
-        </a>
+    <div class="fspt23-container" data-aos="fade-up">
+        <h1 class="fspt23-title i18nelement" data-i18n="home.fspt23-title"></h1>
+
+        <p class="fspt23-text i18nelement text" data-i18n="home.fspt23-text"></p>
+
+        <img src="imgs/trophies.jpg" class="fspt23-trophies">
     </div>
 
     <div class="stats-container" data-aos="fade-up">
@@ -158,8 +160,8 @@
     <div class="car-container" data-aos="fade-up" style="display: none;">
         <h1>FSUM 23</h1>
 
-        <div class="model-container">         
-            <iframe class="model" src="https://3dwarehouse.sketchup.com/embed/e72f7d03-b448-4351-a97d-8dc84f6a77a3?token=n1npGYpnBLg=&binaryName=s21" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="580" height="326" allowfullscreen></iframe>  
+        <div class="model-container">     
+            
         </div>
     </div>
 
@@ -169,6 +171,12 @@
         <p class="green-text text i18nelement" data-i18n="home.planet-text"></p>
 
         <img src="imgs/icons/sustentabilidade.png" class="green-img">
+    </div>
+
+    <div class="meet-the-team-container" data-aos="fade-up">
+        <a class="meet-the-team-title" href="html/team.html">
+            <h1 class="i18nelement" data-i18n="home.team"></h1>
+        </a>
     </div>
 
     <div class="buttons-container" data-aos="fade-up">
@@ -249,7 +257,8 @@
             <a href="html/powertrain.html" class="link">PowerTrain</a>
             <a href="html/esw.html" class="link">Electronics & Software</a>
             <a href="html/drivetrain.html" class="link">Drivetrain</a>
-            <a href="html/body.html" class="link">Body</a>
+            <a href="../html/chassis_aero.html" class="link">Chassis & Aerodynamics</a>
+            <a href="../html/suspension_steering.html" class="link">Suspension & Steering</a>
         </div>
 
         <div class="bottom-sub-container">
@@ -328,6 +337,8 @@ async function i18Loader() {
 
 i18Loader();
     </script>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>

@@ -40,7 +40,7 @@
 
 .member {
     width: 300px;
-    height: 440px;
+    height: 470px;
     border-radius: 20px;
     background-color: #e52516;
     display: flex;
@@ -49,24 +49,23 @@
     align-items: center;
 }
 
-.photo-container {
-    height: 250px;
-    width: auto;
-}
-
-.team-role {
-    color: white;
-    font-size: 30px;
-    margin-bottom: -20px;
-}
-
 .photo {
     border-radius: 20px;
-    height: 270px;
+    height: 260px;
     width: 220px;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
-.description-text {
+.member-text {
     color: white;
     font-size: 20px;
+}
+
+.in-charge-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

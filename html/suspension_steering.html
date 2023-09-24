@@ -7,8 +7,9 @@
     <link rel="icon" href="../imgs/fsum.ico">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/sectors.css">
+    <link rel="stylesheet" href="../css/sectors.css"> 
     <link rel="stylesheet" href="../css/bottom.css">
+    <link rel="stylesheet" href="../css/team.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>FSUMinho</title>
 </head>
@@ -43,11 +44,11 @@
                 </li>
         
                 <li class="nav-item">
-                    <a href="../html/contact.html">
+                    <a href="html/contact.html">
                         <p class="i18nelement contact" data-i18n="nav.contact"></p>
                     </a>
                 </li>
-            </ul>
+              </ul>
 
               <div class="hamburger">
                  <span class="bar"></span>
@@ -58,68 +59,68 @@
         </div>
     </header>
 
-    <div class="title-container" data-aos="fade"
+    <div class="title-container" data-aos="fade" 
     style="background: 
             linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
-        ), url(../imgs/departments/pwrt.png);
+            ), url(../imgs/departments/suspension_steering_banner.png);
         background-position: center;
-        background-size: cover;">
-        <h1>PowerTrain</h1>
+        background-size: cover">
+        <h1>Suspension & Steering</h1>
     </div>
 
     <div class="introduction-container" data-aos="fade-up">
-        <h1 class="introduction-title i18nelement" data-i18n="pwrt.title"></h1>
+        <h1 class="introduction-title i18nelement" data-i18n="suspension_steering.title"></h1>
 
-        <p class="introduction-text text i18nelement" data-i18n="pwrt.text"></p>
+        <p class="introduction-text text i18nelement" data-i18n="suspension_steering.text"></p>
     </div>
 
     <div class="team-container" data-aos="fade-up">
-        <h1 class="pwrt-team-title i18nelement" data-i18n="pwrt.team"></h1>
+        <h1 class="body-team-title i18nelement" data-i18n="suspension_steering.team"></h1>
 
         <div class="grid">
             <div class="member">
                 <div class="member-text">
-                    <p class="i18nelement" data-i18n="pwrt.head"></p>
+                    <p class="i18nelement" data-i18n="suspension_steering.steering"></p>
                 </div>
-
-                <img src="../imgs/members/pwrt/marcos_novo_engenharia_eletronica.png" class="photo">
+                
+                <img src="../imgs/members/suspension_steering/Beatriz_Fernandes_Engenharia_de_Materiais.png" class="photo">
 
                 <div class="description">
                     <p class="member-text">
-                        Marcos Novo <br>
-                        <span class="i18nelement" data-i18n="courses.EEIC"></span>
+                        Beatriz Fernandes <br>
+                        <span class="i18nelement" data-i18n="courses.EM"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="member-text">
-                    <p class="i18nelement" data-i18n="pwrt.cons"></p>
+                    <p class="i18nelement" data-i18n="suspension_steering.suspension"></p>
                 </div>
 
-                <img src="../imgs/members/pwrt/daniel_cardoso.png" class="photo">
+                <img src="../imgs/members/suspension_steering/maria_joao_pinto.png" class="photo">
 
                 <div class="description">
                     <p class="member-text">
-                         Daniel Cardoso<br>
-                        <span class="i18nelement" data-i18n="courses.EEIC"></span>
+                        Maria João Pinto <br>
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
             </div>
 
             <div class="member">
                 <div class="member-text">
-                    <p class="i18nelement" data-i18n="pwrt.charge"></p>
+                    <p class="i18nelement" data-i18n="suspension_steering.suspension"></p>
                 </div>
 
-                <img src="../imgs/members/pwrt/gabriel_castro.png" class="photo">
+                <img src="../imgs/members/suspension_steering/diogo_costa.png" class="photo">
 
                 <div class="description">
                     <p class="member-text">
-                        Gabriel Castro<br>
-                        <span class="i18nelement" data-i18n="courses.EEIC"></span>
+                        Diogo Costa <br>
+                        <span class="i18nelement" data-i18n="courses.EMEC"></span>
                     </p>
                 </div>
             </div>
@@ -159,7 +160,7 @@
             <a class="i18nelement link" data-i18n="footer.wwu" href="../html/work_with_us.html"></a>
         </div>
 
-        <div class="bottom-sub-container image" href="../index.html">
+        <div class="bottom-sub-container image">
             <a href="../index.html">
                 <img src="../imgs/nav/logo_white.png" class="bottom-logo">
             </a>
@@ -167,8 +168,8 @@
     </div>
 
     <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
-    <script> 
-                function updateContent() {
+    <script>
+        function updateContent() {
     const elements = document.getElementsByClassName("i18nelement");
 
     for (let i = 0; i < elements.length; i++) {
@@ -226,7 +227,7 @@ async function i18Loader() {
     });
 }
 
-i18Loader();       
+i18Loader();
     </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -236,6 +237,5 @@ i18Loader();
     <script src="../javascript/stylify-config.js"></script>
 
     <script src="../javascript/nav.js"></script>
-
 </body>
 </html>

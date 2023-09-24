@@ -40,7 +40,7 @@
         "competition-class1": "<span style='color: #084d6e; font-weight: bold'>Class 1</span> <br> Will require a dynamic presentation of a car equiped with an internal combustion engine",
         "competition-class1a": "<span style='color: #084d6e; font-weight: bold'>Class 1A</span> <br> Challenges teams to build a car moved by an alternative source of energy",
         "competition-events": "The competition is divided into a series of <span style='color: #084d6e'>static and dynamic events</span>. <br> The static events consist of the presentation of the team's business plan, analysis of the costs associated with the team and the assembly of the car and analysis of the car's design from a technical point of view. The dynamic tests aim to test the behavior of the car on the track. They include a skidpad, acceleration test, autocross, endurance test and efficiency test. In these events, points will be awarded to every team's overall score, which will later determine the winning team in each class",
-        "competition-our-class": "FSUMinho will make its debeut in class 2 with an electric virtual prototype",
+        "competition-our-class": "FSUMinho will compete in class 1A with an electric prototype",
 
         "planet-title": "Commitment with the planet",
         "planet-text": "We are commited to a <span style='color:#084d6e'>greener future</span>. That's why we chose to equip our car with an electric power unit. The team will also support a <span style='color:#084d6e'>circular economy</span>, promoting the reuse of electrical components from portuguese industries in order to <span style='color:#084d6e'>reduce e-waste</span>. At least 25% of electronic 'trash' that reaches recycling centers, is still higly reusable. This materials are fundamental to <span style='color:#084d6e'>reduce our carbon footprint</span>.",
@@ -50,14 +50,24 @@
 
         "updates": "Latest updates",
 
-        "team": "Meet the team"
+        "team": "Meet the team",
+
+        "fspt23-title": "Competition debeut",
+        "fspt23-text": "FSUMinho made its debut in the world of Formula Student competitions at FSPT 2023. Our team competed in Class 2 with a virtual electric prototype. The result of our hard work and dedication was an impressive <span style='color: #084d6e'>2nd place in the overall class ranking</span>. Furthermore, we achieved 1st place in the Business Plan Presentation, 2nd place in Engineering Design, and 5th place in Cost and Manufacturing. Our participation in this event not only demonstrated that we are up to the challenge of competing in Formula Student but also provided us with feedback that will help us perform even better in future competitions."
     },
 
     "team": 
     {
         "whos-in-charge": "Team Lidership",
 
-        "whos-in-charge-text": "In front of the team are the Team Leader and the Technical Director. The <span style='color: #084d6e'>Team Leader</span>, as the name implies, is at the top of the chain of command. It is his responsibility to make all decisions that involve the entire team and to decide its direction. The <span style='color: #084d6e'>Technical Director</span> is the Team Leader's right-hand man. He is responsible for overseeing and monitoring the development of the car across all sectors."
+        "whos-in-charge-text": "Leading the team are the team leader and the technical directors. The <span style='color: #084d6e'>team leader</span> sets strategic goals and coordinates the entire team's activities. The <span style='color: #084d6e'>technical director of the mechanical part</span> focuses on the design and manufacturing of the car's mechanical components, while the <span style='color: #084d6e'>technical director of the electrical part</span> is responsible for the development and implementation of the electrical systems that control it."
+    },
+
+    "boss":
+    {
+        "team-leader": "Team Leader",
+        "dir-mec": "Technical Director <br> (Mechanical)",
+        "dir-elec": "Technical Director <br> (Electrical)"
     },
 
     "mnt": 
@@ -65,8 +75,6 @@
         "title": "Sector's role",
         "text": "The management sector handles the <span style='color:#084d6e'>business</span> side of the team. It is its responsibility to gather funds for the project via <span style='color:#084d6e'>partnerships</span> and also for its <span style='color:#084d6e'>marketing</span>. Management also has to fulfil the needs of the other departments. This includes ordering parts and tools or provide trainning sessions.",
         "team": "Management Team",
-        "leader": "Team Leader",
-        "dir": "Technical Director",
         "head": "Head of Management",
         "contacts": "External Contacts",
         "team-mnt": "Team Management",
@@ -93,9 +101,9 @@
         "head": "Head of ESW",
         "rtd": "Readt to Drive",
         "imd": "Isolation Monitoring <br> Device",
-        "senaq": "Sensor Acquisition",
+        "senaq": "Sensors",
         "tsal": "Tractive System Active Light",
-        "bspd": "Brake System <br> Plausibility Device"
+        "bspd": "Brake System <br> Plausibility"
     },
 
     "dvrt":
@@ -110,16 +118,24 @@
         "ref": "Accumulator Cooling"
     },
 
-    "body":
+    "suspension_steering":
     {
         "title": "Sector's role",
-        "text": "The body sector will take care of everything related to <span style='color:#084d6e'>bodywork, aerodynamics, suspension and chassis</span>. The sector's goals are to deliver a strong and light structure that is both able to handle the abuse on track and to <span style='color:#084d6e'>keep the driver safe</span> in case of impact, to produce aerodynamic components that keep the <span style='color:#084d6e'>car stable at high speeds</span> and to develop a suspension able to <span style='color:#084d6e'>keep the wheels in contact with the track</span> at all times.",
-        "team": "Body team",
-        "head":"Head of Body",
-        "dir": "Direction",
-        "susp": "Suspension",
-        "uprights": "Uprights",
-        "chassis": "Chssis"
+        "text": "The suspension & steering sector is essential for the car's performance. The suspension provides <span style='color:#084d6e'>grip</span>, <span style='color:#084d6e'>stability</span>, and absorbs track irregularities, while the steering allows the driver to control the car with <span style='color:#084d6e'>precision</span>.",
+        "team": "Suspension & Steering team",
+        "head": "Head of Sector",
+        "suspension": "Suspension",
+        "steering": "Steering"
+    },
+
+    "chassis_aero": 
+    {
+        "title": "Sector's role",
+        "text": "The chassis and aerodynamics sector is responsible for designing and constructing the car's chassis. The chassis is the structure that supports all the car's components. Aerodynamics is responsible for <span style='color:#084d6e'>minimizing air resistance and maximizing downforce</span>.",
+        "team": "Chassis & Aerodynamics team",
+        "head": "Head of Sector",
+        "chassis": "Chassis",
+        "aero": "Aerodynamics"
     },
 
     "sponsors":
@@ -163,13 +179,16 @@
         "pack-partner-expetations": "We expect our partners to also divulge our brand and help us establish useful contacts.",
 
         "pack-bronze-text": "Bronze sponsors will have a spot in our sponsor portfolio. They will have their <span style='color:#084d6e'>logo present in the car</span> in more visible parts of the bodywork and merchandising items. Lower tier benefits are also included.",
-        "pack-bronze-expetations": "Bronze sponsorship requires an investment between 1000€ and 2500€",
+        "pack-bronze-expetations": "Bronze sponsorship requires an investment between 1000€ and 5000€",
 
         "pack-silver-text": "Silver sponsors will have <span style='color:#084d6e'>VIP status in events</span> organized by FSUMinho. Their logo will also be present on the car and merchandising, but will have more presence than bronze logos. This tier will receive a <span style='color:#084d6e'>monthly report</span> containing everything done by the team. Lower tier benefits are also included.",
-        "pack-silver-expetations": "Silver sponsorship requires an investment between 2500€ and 5000€",
+        "pack-silver-expetations": "Silver sponsorship requires an investment between 5000€ and 7500€",
 
         "pack-gold-text": "Gold sponsors will have voting power in <span style='color:#084d6e'>decision-making</span> sessions. Their logo presence will be bigger compared to silver sponsors. The team will mention their company in press articles or scientific magazines. Lower tier benefits are also included.",
-        "pack-gold-expetations": "Gold sponsorship requires an investment between 5000€ and 10000€"
+        "pack-gold-expetations": "Gold sponsorship requires an investment between 7500€ and 12500€",
+
+        "pack-diamond-text": "Diamond sponsors will receive the <span style=' color: #084d6e'>highest level of visibility on the bodywork and in our merchandising</span>. Additionally, they will have the opportunity to collaborate with the team on an <span style=' color: #084d6e'>annual project</span>. Lower tier benefits are also included.",
+        "pack-diamond-expetations": "Diamond sponsorship requires an investment of 12500€ or more"
     },
 
     "footer":
