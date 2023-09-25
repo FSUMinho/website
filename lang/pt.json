@@ -24,7 +24,7 @@
         "about-us-text": "Somos um grupo de estudantes de engenharia da Universidade do Minho com base na cidade de Guimarães (Campus de Azurém) com uma paixão pelo desporto motorizado. Como a mais recente adição à Formula Student em Portugal, pretendemos entregar um projeto com bases sólidas e, a curto prazo, tornarmo-nos uma referência no norte do país.",
 
         "why-fs": "Porquê a Formula Student",
-        "why-fs-text": "A Formula Student oferece aos estudantes a chance de experenciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, nos ajudam a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, todas cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
+        "why-fs-text": "A Formula Student oferece aos estudantes a oportunidade de experenciar o mundo da engenharia. A construção do carro requer a <span style='color: #084d6e'>aplicação dos conhecimentos</span> que temos sobre as nossas áreas de estudo e a <span style='color: #084d6e'>colaboração com parceiros</span> que, para além de apoiarem o nosso projeto, ajudam-nos a evoluir. Este projeto tem também como objetivo desenvolver <span style='color: #084d6e'>soft skills</span> tais como gestão, comunicação e trabalho em equipa, todas cruciais para um <span style='color: #084d6e'>engenheiro de topo</span>.",
 
         "sectors-title": "Os nossos setores",
 
@@ -53,14 +53,14 @@
         "team": "Conhece a equipa",
 
         "fspt23-title": "Estreia nas competições",
-        "fspt23-text": "A FSUMinho estreou-se no mundo das competições da Formula Student na FSPT 2023. A nossa equipe competiu na Classe 2 com um protótipo virtual elétrico. O fruto de nosso árduo trabalho e dedicação foi um impressionante <span style='color: #084d6e'>2º lugar na classificação geral da classe</span>. Além disso, conquistamos o 1º lugar no Business Plan Presentation, o 2º lugar no Engineering Design e o 5º lugar no Cost and Manufacturing. A nossa participação neste evento não só provou que estamos à altura do desafio que é competir na Formula Student, mas também nos forneceu feedback que nos ajudará a ter uma melhor prestação em provas futuras."
+        "fspt23-text": "A FSUMinho estreou-se no mundo das competições da Formula Student na FSPT 2023. A nossa equipa competiu na Classe 2 com um protótipo virtual elétrico. O fruto de nosso árduo trabalho e dedicação foi um impressionante <span style='color: #084d6e'>2º lugar na classificação geral da classe</span>. Além disso, conquistamos o 1º lugar no Business Plan Presentation, o 2º lugar no Engineering Design e o 5º lugar no Cost and Manufacturing. A nossa participação neste evento não só provou que estamos à altura do desafio que é competir na Formula Student, mas também nos forneceu feedback que nos ajudará a ter uma melhor prestação em provas futuras."
     },
 
     "team":
     {
         "whos-in-charge": "Direção da equipa",
 
-        "whos-in-charge-text": "À frente da equipa estão o líder da equipa e os diretores técnicos. O <span style='color: #084d6e'>líder da dquipa</span> define as metas estrtégicas e coordena toda a atividade da equipa. O <span style='color: #084d6e'>diretor técnico da parte mecânica</span> concentra-se no design e fabricação dos componentes mecânicos do carro, enquanto o <span style='color: #084d6e'>diretor técnico da parte elétrica</span> é responsável pelo desenvolvimento e implementação dos sistemas elétricos que o controlam." 
+        "whos-in-charge-text": "À frente da equipa estão o líder da equipa e os diretores técnicos. O <span style='color: #084d6e'>líder da equipa</span> define as metas estratégicas e coordena toda a atividade da equipa. O <span style='color: #084d6e'>diretor técnico da parte mecânica</span> concentra-se no design e montagem dos componentes mecânicos do carro, enquanto o <span style='color: #084d6e'>diretor técnico da parte elétrica</span> é responsável pelo desenvolvimento e implementação dos sistemas elétricos que o controlam." 
     },
 
     "boss": 
@@ -73,7 +73,7 @@
     "mnt":
     {
         "title": "Função do setor",
-        "text": "A equipa de management é responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que iclui adquirir ferramentas e peças e organizar formações.",
+        "text": "A equipa de management é responsável pelas <span style='color: #084d6e'>finanças</span> da equipa. É responsável pela acumulação de fundos através de <span style='color: #084d6e'>parcerias</span> e pelo <span style='color: #084d6e'>marketing</span> do projeto. Cabe também à equipa de management satisfazer as necessidades dos outros setores, o que inclui adquirir ferramentas e peças e organizar formações.",
         "team": "Equipa de Management",
         "head": "Head de Management",
         "contacts": "Contactos Externos",
@@ -121,7 +121,7 @@
     "suspension_steering":
     {
         "title": "Função do setor",
-        "text": "O setor de suspensão e direção é essencial para o desempenho do carro.  A suspensão proporciona <span style='color:#084d6e'>aderência</span>, <span style='color:#084d6e'>estabilidade</span> e absorver as irregularidades da pista, enquanto a direção permite ao piloto controlar o carro com <span style='color:#084d6e'>precisão</span>.",
+        "text": "O setor de suspensão e direção é essencial para o desempenho do carro. A suspensão proporciona <span style='color:#084d6e'>aderência</span>, <span style='color:#084d6e'>estabilidade</span> e absorve as irregularidades da pista, enquanto a direção permite ao piloto controlar o carro com <span style='color:#084d6e'>precisão</span>.",
         "team": "Equipa de Suspension & Steering",
         "head": "Head de Suspension & Steering",
         "suspension": "Suspensão",
