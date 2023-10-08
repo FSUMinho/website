@@ -10,7 +10,7 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
         ), url(../imgs/fspt_group_photo.jpg);
-    background-position: 0% 10%;
+    background-position: 0% 5%;
     color: white;
     background-size: cover;
 }
@@ -341,6 +341,9 @@
 }
 
 @media (max-width: 800px) {
+    .introduction-container {
+        background-position: 50% 50%;
+    }
     .stat-card {
         width: 300px;
     }
