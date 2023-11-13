@@ -30,8 +30,8 @@ p {
 }
 
 .text {
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   text-align: justify;
 }
 
@@ -52,15 +52,14 @@ button {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 60px;
+    font-size: 40px;
+    line-height: 40px;
   }
 
   p {
     font-size: 19px;
   }
-}
 
-@media (max-width: 800px) {
   .text {
     text-align: center;
   }

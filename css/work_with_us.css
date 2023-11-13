@@ -13,6 +13,9 @@
     color: white;
     border-radius: 20px;
     padding: 40px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
 }
 
 .why-invest-container {

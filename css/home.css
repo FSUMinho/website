@@ -200,15 +200,11 @@
 }
 
 .class-card {
-    font-display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
     border-radius: 20px;
-    border-color: #e52516;
-    width: 300px;
+    width: 290px;
     height: 200px;
+    background-color: #e52516;
+    color: white;
 }
 
 .class-text {
@@ -240,8 +236,8 @@
 .model {
     margin-top: -20px;
     border-radius: 20px;
-    max-height: 500px;
-    max-width: 900px;
+    height: 500px;
+    width: 900px;
 }
 
 .green-container {
@@ -301,12 +297,15 @@
 }
 
 .meet-the-team-title {
+    font-size: 70px;
     background-color: #e52516;
     color: white;
     border-radius: 20px;
     cursor: pointer;
     transition: all .5s ease-in-out;
     padding: 80px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .meet-the-team-title:hover {
@@ -328,6 +327,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    text-align: center;
 }
 
 .fspt23-text {
@@ -371,10 +371,12 @@
 
     .partener-button {
         font-size: 20px;
+        padding: 10px 70px;
     }
 
     .meet-the-team-title {
-        font-size: 5px;
-        padding: 5px;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 60px;
     }
 }
